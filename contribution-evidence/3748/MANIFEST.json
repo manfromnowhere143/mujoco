@@ -1,13 +1,13 @@
 {
-  "source_commit": "8d2b7d1798b58b8294223ae37b08862d562d2061",
+  "source_commit": "cca77a24b381edeec2baea7b148c7a08cceb142f",
   "files": {
     "README.md": {
-      "sha256": "4941b1fb76739c6f745720673687bb22192efd20bb69e6edded103251b01aec3",
-      "bytes": 6784
+      "sha256": "69d8f35a0a0ba520dfdb7d5fd42c0f5e2e85a79f12c6a87b5d65796b2a929018",
+      "bytes": 6967
     },
     "REPRODUCE.md": {
-      "sha256": "f55c5a9447af56b96fbe569e1e803b3fed170a174ce9c02fcde47b97aafa7fae",
-      "bytes": 3266
+      "sha256": "33e0ad57025008ebcc777aca0ef4166bbd3522b526638589adc3d4a632ff438f",
+      "bytes": 3563
     },
     "audit.py": {
       "sha256": "7df92ab2e265294860ee6617280949ab733f30615a0a4c240bf91469040aa614",
@@ -20,6 +20,10 @@
     "check_formatted.py": {
       "sha256": "592df80804b270a0e1451a44b1e1740386e46b21fffbb1aa026c0995147a620c",
       "bytes": 3122
+    },
+    "collect_update.py": {
+      "sha256": "2f0dbf7dac63cbf68d2770b11b9b7b8bf27d211f802c066508863db66d387854",
+      "bytes": 3003
     },
     "confirmation.xml": {
       "sha256": "8d96b81faf7e6b1bde60caf6b65c200bbc75e49dc199b596f6baafe322af6fb4",
@@ -45,6 +49,10 @@
       "sha256": "6f7e232e16965fac2edc05036b8a7182cde5875c6b7dc07da7822f9fe992fc68",
       "bytes": 2641
     },
+    "latest-submission-source.json": {
+      "sha256": "ef60c726442db63851f374cff546e32c076b14f8b23a7293eec3ae19de30b084",
+      "bytes": 344
+    },
     "launch_linux.py": {
       "sha256": "8bc2cf9e6bf6ab7733b9a551bd636f87a6660b15175e3f6b2d2fc0d43d2b8f24",
       "bytes": 1978
@@ -52,6 +60,10 @@
     "launch_linux_format.py": {
       "sha256": "60347a9ccdec67f21dd9921ad51054edb40d913dad891f474cc69e6f16ef446f",
       "bytes": 1992
+    },
+    "launch_linux_update.py": {
+      "sha256": "69dc0cb41e953d85de146c7b13b4b5ae09e552db63260b6a1f7524b2b2d1fa63",
+      "bytes": 2000
     },
     "linux/candidate/commands.json": {
       "sha256": "00014d6058112cd5eb5fc613a58e2619aa358acb8de79ace80d8944f65370a55",
@@ -697,6 +709,14 @@
       "sha256": "3b4c9d570a221910972bdbb045cf947ae8d5a5fdd27f8792a25e7ac4062851d5",
       "bytes": 1088
     },
+    "linux-update-launch.json": {
+      "sha256": "fa01caccc874a4a9257306922cd4b3e460e8d0fa8ace41a2f12dea35a4b85057",
+      "bytes": 1089
+    },
+    "linux-upstream-trajectory-comparison.json": {
+      "sha256": "4cde4b670d3e3fc9c576b5374a419bce4e907e3025b28de1b9e5d3e249b4d315",
+      "bytes": 1797
+    },
     "linux_driver.py": {
       "sha256": "b4ed08b5b2e410d2533a3e1ab9d1a788c680e05ad0cd2da47834367428e8096e",
       "bytes": 2416
@@ -704,6 +724,10 @@
     "linux_format.py": {
       "sha256": "c9d90f3ec0701b54245fa098c95c3029d3aa48b266cff6c471644a651e9db1b4",
       "bytes": 1290
+    },
+    "linux_update.py": {
+      "sha256": "bbec8b1025929e0d0782549d80f75a0bd25d1801ae57c2684844bb5872bb447f",
+      "bytes": 2034
     },
     "macos/candidate/commands.json": {
       "sha256": "514244e668b4adfc2d1091938f3f9cbc7e98cc8865aeab67cdde5bc607724580",
@@ -1377,6 +1401,10 @@
       "sha256": "4e077023712a9b60c329d302a50d20ca13ebf0a8c5f2b5ee0ce98ae0c3e4e8b3",
       "bytes": 23623
     },
+    "macos-upstream-trajectory-comparison.json": {
+      "sha256": "0b5f702026a463fc36c112f0f1450bdeb22e3da8f31307370152bc247d6d0110",
+      "bytes": 1797
+    },
     "native_probe.cc": {
       "sha256": "cd39613e6a1967f094d2756d8fcab050a5fb3d9c82d13e82e03ba5fb29ec59ba",
       "bytes": 2324
@@ -1393,9 +1421,17 @@
       "sha256": "8e55e6f2db1750cf766abcc4fa3c3d692628a6a08391d32dc25a036d5ba434ac",
       "bytes": 5568
     },
+    "qualify_update.py": {
+      "sha256": "e13dfb91efc8fca00ced2bad324ee21421c744c17be4f9670f067bf2ce11d36e",
+      "bytes": 5583
+    },
     "reported.xml": {
       "sha256": "2408b3800460f243cb27d7c5eda7604d3a5dda9837f8ba0efe2c734641906532",
       "bytes": 302
+    },
+    "submission-current-main.patch": {
+      "sha256": "7b9d47d8ae8b93ece35fb061d512ced80bb281dbbe201656125948294ae529dd",
+      "bytes": 4990
     },
     "submission-final.patch": {
       "sha256": "2fac39d23c5cd9e9b128824f2031a2c301a3567debffc643095b8d53e3e14314",
@@ -1408,6 +1444,14 @@
     "submission-source.json": {
       "sha256": "81dd27b57af99489870eb06f25c7f551c99051d0eec39759937a6d358f07c49e",
       "bytes": 1652
+    },
+    "submission-v1.patch": {
+      "sha256": "4745836c191c2747a31586b372ce8ed6a72cb0dc9a5c2f47a945299575aed96b",
+      "bytes": 4272
+    },
+    "submission-v2.patch": {
+      "sha256": "2fac39d23c5cd9e9b128824f2031a2c301a3567debffc643095b8d53e3e14314",
+      "bytes": 4938
     },
     "support-line-confirmation.xml": {
       "sha256": "377901906f2e87e247e613f979d8ef216e2e9a63750c9b457e5609c87e3a0c8f",
@@ -1433,17 +1477,1017 @@
       "sha256": "72466c6a44dad7e44c9eb21f4e3b174210aaccb5070a96127a2dbd8f18d64109",
       "bytes": 3101
     },
+    "upstream-advance.patch": {
+      "sha256": "eac494963c2b93d8164706e51f035c02ac2230b58d96cec631ee6deef5e053f8",
+      "bytes": 2908
+    },
+    "upstream-update/README.md": {
+      "sha256": "43b365d597eab1b90e867aa05c48c79bf3217695dad147378e76331fe806b61d",
+      "bytes": 3608
+    },
+    "upstream-update/linux/candidate/commands.json": {
+      "sha256": "a840253fbd085d504d824c34987edadb0ee17efeaacaf4267ac73091416f23e3",
+      "bytes": 10609
+    },
+    "upstream-update/linux/candidate/compile-probe.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/compile-probe.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/compiler.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/compiler.stdout": {
+      "sha256": "8854612eaf6fea7cbba6da95264f0cc26bf09d0a9b8bbc09e20e16cde2ef31eb",
+      "bytes": 240
+    },
+    "upstream-update/linux/candidate/completed.json": {
+      "sha256": "98e93097f7d5cd07496b01fa40c565a31ab6b6ef4f2715606b217a4e723e77d7",
+      "bytes": 1367
+    },
+    "upstream-update/linux/candidate/double/library.sha256": {
+      "sha256": "5a7f6c3b1558df7e9d41a6f7bb39c367cec4e891c28ce0cb6b26a95f020533d8",
+      "bytes": 65
+    },
+    "upstream-update/linux/candidate/double-CMakeCache.txt": {
+      "sha256": "5e93266be65d979fdaacb27d5a0033a91b05f63917c66733ccf6b330314dbfb7",
+      "bytes": 40260
+    },
+    "upstream-update/linux/candidate/double-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-build.stdout": {
+      "sha256": "04ad327f12284eec714b9688688343fbfe5ea73ffba82125326f0cfada4a0aba",
+      "bytes": 2097
+    },
+    "upstream-update/linux/candidate/double-calibration.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-calibration.stdout": {
+      "sha256": "fc489a21ffb4b6f7e7a64132028a87c135990d834bed9e25f8bf48b23817f60a",
+      "bytes": 24477
+    },
+    "upstream-update/linux/candidate/double-configure.stderr": {
+      "sha256": "81089c4da7a7f30ebfdb796bd2272940dc113beac3e804a43b45ffb8f29f0d20",
+      "bytes": 10349
+    },
+    "upstream-update/linux/candidate/double-configure.stdout": {
+      "sha256": "5af60b2c34606dda0c4057635882a6de92976a6b9a9ed38e56d45a402426b7a2",
+      "bytes": 5207
+    },
+    "upstream-update/linux/candidate/double-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-engine_collision_box_test.stdout": {
+      "sha256": "ad16164263ac28849441b21afb8911227065ccc162fb225b7170cae1d1128057",
+      "bytes": 2202
+    },
+    "upstream-update/linux/candidate/double-engine_collision_box_test.xml": {
+      "sha256": "03af0da2f698e9017f0053e43de393ea60c61e80db8fb443b2c0ed1d145f5aaa",
+      "bytes": 3771
+    },
+    "upstream-update/linux/candidate/double-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-engine_collision_convex_test.stdout": {
+      "sha256": "83b3252f34b4abf653f6b0c6d07f29e72d03fad5d4afae64fa6b65ccfc9c3ad8",
+      "bytes": 3091
+    },
+    "upstream-update/linux/candidate/double-engine_collision_convex_test.xml": {
+      "sha256": "e381638158423d25e14497625a7be52d156e74822a83f9e71b8422d2e38e8f11",
+      "bytes": 4680
+    },
+    "upstream-update/linux/candidate/double-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-engine_collision_driver_test.stdout": {
+      "sha256": "72a7620e533de75537c91625816807d1a1722aacf7b058724fb839189d9be782",
+      "bytes": 11090
+    },
+    "upstream-update/linux/candidate/double-engine_collision_driver_test.xml": {
+      "sha256": "1bd04da621126e9e9086f990c5c92c10d2a20e8c97a40a9cafc33d74a05d071a",
+      "bytes": 6130
+    },
+    "upstream-update/linux/candidate/double-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-engine_collision_gjk_test.stdout": {
+      "sha256": "c3529aa0078fa62d8ce09b917ef0babcf4478918e7a9ed3d82c696a3fc0afea0",
+      "bytes": 6507
+    },
+    "upstream-update/linux/candidate/double-engine_collision_gjk_test.xml": {
+      "sha256": "c642e571db1cdd9e21676bf899273d10929e39745c19f3c87ee0ff0a0113af3d",
+      "bytes": 14959
+    },
+    "upstream-update/linux/candidate/double-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/double-new-tests.stdout": {
+      "sha256": "908b5d94c8b65485563fbcbd4795ec47ee38c499ea68f32a035523605241ffe9",
+      "bytes": 740
+    },
+    "upstream-update/linux/candidate/double-new-tests.xml": {
+      "sha256": "355f3768d56634de835bf3299476059b39107adc60c14a8750203f0c63d2bb98",
+      "bytes": 816
+    },
+    "upstream-update/linux/candidate/platform.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/platform.stdout": {
+      "sha256": "8cd39905ab98743a0aff5b7ff36c01f72d0812164016667e0d9a05d8e2b9182a",
+      "bytes": 90
+    },
+    "upstream-update/linux/candidate/retained-files.json": {
+      "sha256": "71fab3acd37dff047a38ae7c9cbe3cfa3eb913dc04e386e0050b5d0a7931b0f4",
+      "bytes": 15378
+    },
+    "upstream-update/linux/candidate/single/library.sha256": {
+      "sha256": "7e3ef7ebd81fec43364ac899bdcca77172a1b2c2a29573cd0435b6311c900622",
+      "bytes": 65
+    },
+    "upstream-update/linux/candidate/single-CMakeCache.txt": {
+      "sha256": "39ed2d0a19a7b801503143bf8b24d823439defd3e188539caeea536b3c1ac974",
+      "bytes": 40286
+    },
+    "upstream-update/linux/candidate/single-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-build.stdout": {
+      "sha256": "3ceedc4b2ea41334d5716e1bdfff6d1ce918aab1e5b87519d1687a864e9d2fe6",
+      "bytes": 2097
+    },
+    "upstream-update/linux/candidate/single-calibration.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-calibration.stdout": {
+      "sha256": "b17febf5e2fa75fb44e885a8810306fa3a0fdc1582eceeb7a4e7fed2a73736eb",
+      "bytes": 36492
+    },
+    "upstream-update/linux/candidate/single-configure.stderr": {
+      "sha256": "f59d98eb3e380eeb8727a43766926c12b2daf03be3af0de52443cafb5aae13fa",
+      "bytes": 10349
+    },
+    "upstream-update/linux/candidate/single-configure.stdout": {
+      "sha256": "4a0abc1faf374732ea0ab7547e02c1cbb19b36a38a9039190a2151855b0cedaf",
+      "bytes": 5207
+    },
+    "upstream-update/linux/candidate/single-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-engine_collision_box_test.stdout": {
+      "sha256": "5974d7aee515e2961dbf356f74f6e6daa6be09bb44024b132fd2634cadb35beb",
+      "bytes": 2202
+    },
+    "upstream-update/linux/candidate/single-engine_collision_box_test.xml": {
+      "sha256": "7dc78cc24b3c9e690149a4b76ce199a17366ca8150e224546820dda02dfe6491",
+      "bytes": 3772
+    },
+    "upstream-update/linux/candidate/single-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-engine_collision_convex_test.stdout": {
+      "sha256": "d6f61e7d22a477dffca8c3bdccaf475934e9299f0903b87680870982982adc11",
+      "bytes": 3091
+    },
+    "upstream-update/linux/candidate/single-engine_collision_convex_test.xml": {
+      "sha256": "fc9f840883fbc3dfa51091d9e72f80af5ed937610fa435de7b712e3bd28c7e5d",
+      "bytes": 4677
+    },
+    "upstream-update/linux/candidate/single-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-engine_collision_driver_test.stdout": {
+      "sha256": "29418925566ecb0da73b28dd61bb7f42457e34b2eb1b967b159da23f5e9057c0",
+      "bytes": 11090
+    },
+    "upstream-update/linux/candidate/single-engine_collision_driver_test.xml": {
+      "sha256": "578ced64c22ed1bc12ff0a03885b2f0bfb82569796acc6b5e008694357b54c34",
+      "bytes": 6127
+    },
+    "upstream-update/linux/candidate/single-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-engine_collision_gjk_test.stdout": {
+      "sha256": "40233543a44b2a673e92272177bee6294a381b88183928cd49016a1eec715dfc",
+      "bytes": 6507
+    },
+    "upstream-update/linux/candidate/single-engine_collision_gjk_test.xml": {
+      "sha256": "a0d4eb92f715701c7b5b8fd8aaafb2ff3277c0a2adc94cb0501ecc1f391badbd",
+      "bytes": 14960
+    },
+    "upstream-update/linux/candidate/single-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/single-new-tests.stdout": {
+      "sha256": "4bfa38f1cff9d8ad39cca64d53241016be6f798fe51004a8399ceb5ef5d2f126",
+      "bytes": 740
+    },
+    "upstream-update/linux/candidate/single-new-tests.xml": {
+      "sha256": "ebf98f67b51be330c4fa2acff011bf6640f05d1fb849cc32527e2fe1d06312c5",
+      "bytes": 816
+    },
+    "upstream-update/linux/candidate/trace-exposed.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/trace-exposed.stdout.gz": {
+      "sha256": "33006bcb1e629062963dcfe81873fc8f9864df0228b059f3adb4aa4ac3baf15f",
+      "bytes": 3403650
+    },
+    "upstream-update/linux/candidate/trace-fresh.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/trace-fresh.stdout.gz": {
+      "sha256": "ad7c44dfb190b7eae0c7381fbaa601dfde993b57e236aae4aaf5a90b10509253",
+      "bytes": 3198872
+    },
+    "upstream-update/linux/candidate/trace-original.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/trace-original.stdout.gz": {
+      "sha256": "d29a3ef090b35adb4e6d07a1b9cb7bb8967bf3f775421808d3814b33dcc8477d",
+      "bytes": 2128059
+    },
+    "upstream-update/linux/candidate/trace-plane.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/candidate/trace-plane.stdout.gz": {
+      "sha256": "80a6d6d164b964e82f01ba50d28842713092546142721ed7186d7b253d98b8bf",
+      "bytes": 2098742
+    },
+    "upstream-update/linux/reference/commands.json": {
+      "sha256": "cb564ebbc1bd411841619efd83b3ae8ee3bf18592a860ec9c005ff16834b760b",
+      "bytes": 10300
+    },
+    "upstream-update/linux/reference/compile-probe.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/compile-probe.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/compiler.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/compiler.stdout": {
+      "sha256": "8854612eaf6fea7cbba6da95264f0cc26bf09d0a9b8bbc09e20e16cde2ef31eb",
+      "bytes": 240
+    },
+    "upstream-update/linux/reference/completed.json": {
+      "sha256": "3ec863dd681219616bbf806c8e5c81e2c7b668922faf82a45ecaec5c3062ebea",
+      "bytes": 1362
+    },
+    "upstream-update/linux/reference/double/library.sha256": {
+      "sha256": "c9843f2329feab3ee784de6d55ecb58ab6ef13a3eab6544145bd6498fdf836f3",
+      "bytes": 65
+    },
+    "upstream-update/linux/reference/double-CMakeCache.txt": {
+      "sha256": "5e93266be65d979fdaacb27d5a0033a91b05f63917c66733ccf6b330314dbfb7",
+      "bytes": 40260
+    },
+    "upstream-update/linux/reference/double-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-build.stdout": {
+      "sha256": "2ff1c0cd56452551f60b8b7a85b70ff0be3e05f26c931213820bc36fa2e12b0d",
+      "bytes": 10522
+    },
+    "upstream-update/linux/reference/double-configure.stderr": {
+      "sha256": "81089c4da7a7f30ebfdb796bd2272940dc113beac3e804a43b45ffb8f29f0d20",
+      "bytes": 10349
+    },
+    "upstream-update/linux/reference/double-configure.stdout": {
+      "sha256": "6a18e84db48d5b807798f27bf277b5179a3e7eb84b17f57aefe7f5255fe914ab",
+      "bytes": 5207
+    },
+    "upstream-update/linux/reference/double-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-engine_collision_box_test.stdout": {
+      "sha256": "12b7b9ea09f9b3855e5ea9e3fc90d3fac56b2eacec6a641045e265c20b4d9e0b",
+      "bytes": 2268
+    },
+    "upstream-update/linux/reference/double-engine_collision_box_test.xml": {
+      "sha256": "fa5ac2ccf5963df97e004659f8bde7f1f72ca757daddc3d84607c81626e6e0dc",
+      "bytes": 3779
+    },
+    "upstream-update/linux/reference/double-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-engine_collision_convex_test.stdout": {
+      "sha256": "824c91342132939ec845e85980c658ca0b0391683dbe5e8f2c8229499651d0e3",
+      "bytes": 2898
+    },
+    "upstream-update/linux/reference/double-engine_collision_convex_test.xml": {
+      "sha256": "1df0a43aacbd5cc662171d766160094c087b5ab1dccf85ea1f345c41b074c47e",
+      "bytes": 4200
+    },
+    "upstream-update/linux/reference/double-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-engine_collision_driver_test.stdout": {
+      "sha256": "aaaeffb1246a3717ad5d2388dee942f788e55411b91cb94f877bf38330280aa4",
+      "bytes": 11156
+    },
+    "upstream-update/linux/reference/double-engine_collision_driver_test.xml": {
+      "sha256": "c3543666d98464f23f88cca6217b708348a056837a28f7a96791bab1eb5fcdab",
+      "bytes": 6134
+    },
+    "upstream-update/linux/reference/double-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-engine_collision_gjk_test.stdout": {
+      "sha256": "dd54c495972e015debd969d237dc3aabead874e9cf84cfede0ddd918191477f1",
+      "bytes": 6572
+    },
+    "upstream-update/linux/reference/double-engine_collision_gjk_test.xml": {
+      "sha256": "178a427f5cf3164867f10654dfb97f5d3de6a25fe06657ed708c0a004d9c10c9",
+      "bytes": 14961
+    },
+    "upstream-update/linux/reference/double-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/double-new-tests.stdout": {
+      "sha256": "2b62a7ceb705393ff29e4e4ef57f0c207caf84983c7cd882c4fef7eabb4052b4",
+      "bytes": 18066
+    },
+    "upstream-update/linux/reference/double-new-tests.xml": {
+      "sha256": "e184e2a9590aab968d19c7252dde789467ddea1f9348fcf5e8ce1a0b62b4dc57",
+      "bytes": 38225
+    },
+    "upstream-update/linux/reference/platform.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/platform.stdout": {
+      "sha256": "8cd39905ab98743a0aff5b7ff36c01f72d0812164016667e0d9a05d8e2b9182a",
+      "bytes": 90
+    },
+    "upstream-update/linux/reference/retained-files.json": {
+      "sha256": "4fc566cdb1e5d4f6dac997d4b40c4d583a55a8ca22127ba09267848391bb7dda",
+      "bytes": 14408
+    },
+    "upstream-update/linux/reference/single/library.sha256": {
+      "sha256": "93e65546f729466fd733e1717eb2495000f992e298f75146efd026597d4b3cf0",
+      "bytes": 65
+    },
+    "upstream-update/linux/reference/single-CMakeCache.txt": {
+      "sha256": "39ed2d0a19a7b801503143bf8b24d823439defd3e188539caeea536b3c1ac974",
+      "bytes": 40286
+    },
+    "upstream-update/linux/reference/single-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-build.stdout": {
+      "sha256": "7adedcf576969bf32b2e165102d0a9dab04722c8ed2683a8639d9a1bff27650d",
+      "bytes": 10518
+    },
+    "upstream-update/linux/reference/single-configure.stderr": {
+      "sha256": "f59d98eb3e380eeb8727a43766926c12b2daf03be3af0de52443cafb5aae13fa",
+      "bytes": 10349
+    },
+    "upstream-update/linux/reference/single-configure.stdout": {
+      "sha256": "c46003af8d30fc6c9e75515c89502727e45ae28a4d1acf904e1a0c1321027028",
+      "bytes": 5207
+    },
+    "upstream-update/linux/reference/single-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-engine_collision_box_test.stdout": {
+      "sha256": "d39283c2f552af62d8055759a4a8789eb537ad6cf2b1065f04042e9bc4dec48b",
+      "bytes": 2267
+    },
+    "upstream-update/linux/reference/single-engine_collision_box_test.xml": {
+      "sha256": "4cf531bf265ac39c5d5807d07388eca4c197d6e3ece2359d9e6f6f2cc11013b0",
+      "bytes": 3773
+    },
+    "upstream-update/linux/reference/single-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-engine_collision_convex_test.stdout": {
+      "sha256": "39ec7148f1f00f5bea82f0123c1ecb78dbdcac85675e87132786f60449155bdd",
+      "bytes": 2898
+    },
+    "upstream-update/linux/reference/single-engine_collision_convex_test.xml": {
+      "sha256": "54f2ef885cef059e17929119c35d71bd5219baeb3d9f67d9d33d5942d51e45ee",
+      "bytes": 4203
+    },
+    "upstream-update/linux/reference/single-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-engine_collision_driver_test.stdout": {
+      "sha256": "5b40dfd330428e6ae2da028a811d238aa0db0e9dffcd2a2d7abbcb80bb2446c9",
+      "bytes": 11155
+    },
+    "upstream-update/linux/reference/single-engine_collision_driver_test.xml": {
+      "sha256": "11d85df32773c6e69f01eb37f5667721976cd1b9293034f945891db54fd62ae7",
+      "bytes": 6127
+    },
+    "upstream-update/linux/reference/single-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-engine_collision_gjk_test.stdout": {
+      "sha256": "35b96540d2d6d59f36d85ce87fc2b8ee378cd8035995b4d75c6e9b13580a339e",
+      "bytes": 6572
+    },
+    "upstream-update/linux/reference/single-engine_collision_gjk_test.xml": {
+      "sha256": "24d890fec1b414c8e3f793aab42a61b168c386f555158886bf53cc4ca5b5c6bb",
+      "bytes": 14961
+    },
+    "upstream-update/linux/reference/single-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/single-new-tests.stdout": {
+      "sha256": "7a21f50b5fdfe19b70c50b2c1ff3d90907d7093b7b7db22f0a37bcc3f8ecebd0",
+      "bytes": 9710
+    },
+    "upstream-update/linux/reference/single-new-tests.xml": {
+      "sha256": "faf08ceb764c4f377923ebf3474d6a38f7430dd62682f57ea1e699c252338dd6",
+      "bytes": 20003
+    },
+    "upstream-update/linux/reference/trace-exposed.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/trace-exposed.stdout.gz": {
+      "sha256": "31a713e86d6581e0507231663cf0f97bfdd4e6079c8b2331d35e50d86b3f8b25",
+      "bytes": 4583023
+    },
+    "upstream-update/linux/reference/trace-fresh.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/trace-fresh.stdout.gz": {
+      "sha256": "e17de57612b56fd5088b6d0521ddcc2bb1ae91b1b0d7ff2b48db3d1de76071f9",
+      "bytes": 4788472
+    },
+    "upstream-update/linux/reference/trace-original.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/trace-original.stdout.gz": {
+      "sha256": "af5b276082c54b1b04af5510c94e190f84f5ed98f8b97705917bfa51e3530bef",
+      "bytes": 3917063
+    },
+    "upstream-update/linux/reference/trace-plane.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/linux/reference/trace-plane.stdout.gz": {
+      "sha256": "80a6d6d164b964e82f01ba50d28842713092546142721ed7186d7b253d98b8bf",
+      "bytes": 2098742
+    },
+    "upstream-update/linux-audit.json": {
+      "sha256": "ec22f223b3cda31721d79510e9f67bca24ea7343450dc1bc0ca9da68dd89b88e",
+      "bytes": 5965
+    },
+    "upstream-update/linux-audit.stdout": {
+      "sha256": "ec22f223b3cda31721d79510e9f67bca24ea7343450dc1bc0ca9da68dd89b88e",
+      "bytes": 5965
+    },
+    "upstream-update/macos/candidate/commands.json": {
+      "sha256": "f24772c90a11ee2a6b924da1a18c03463cd189d3676f99967226802d4be5afb6",
+      "bytes": 16708
+    },
+    "upstream-update/macos/candidate/compile-probe.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/compile-probe.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/compiler.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/compiler.stdout": {
+      "sha256": "e4218d4d5446e506abd503a5a55b132b3d6e06f9b78716a6deb4334496086f21",
+      "bytes": 157
+    },
+    "upstream-update/macos/candidate/completed.json": {
+      "sha256": "8bb23e33c0bf8c8af8cff662e80aba8be56811732201cbbe8a7fd8b4297434d4",
+      "bytes": 1366
+    },
+    "upstream-update/macos/candidate/double/library.sha256": {
+      "sha256": "4be3384f9d487883af9e98bdcaedbd8f2eb367e3e9b76bbb301fdff2dd7fe003",
+      "bytes": 65
+    },
+    "upstream-update/macos/candidate/double-CMakeCache.txt": {
+      "sha256": "b682d2f3fc01ff8e87382fe859753977f646896f2d7114f69372b84e7218607d",
+      "bytes": 43456
+    },
+    "upstream-update/macos/candidate/double-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-build.stdout": {
+      "sha256": "8df52a375a8ea2fb6834f5647e191959df1282db34309cd42c90e865a27f01e9",
+      "bytes": 1055
+    },
+    "upstream-update/macos/candidate/double-calibration.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-calibration.stdout": {
+      "sha256": "f6d238f7ea302dd32544fd4e1632ddbee2c1af8f59c064165252836e5916506e",
+      "bytes": 37028
+    },
+    "upstream-update/macos/candidate/double-configure.stderr": {
+      "sha256": "f4cc160c4609f02ef725c92366f797e293456800fc6af0cad2c57f1c482bd6ca",
+      "bytes": 11225
+    },
+    "upstream-update/macos/candidate/double-configure.stdout": {
+      "sha256": "871a879d4efb775ee340a3dd633713bfbb6340c7533428649abb073d4dac821f",
+      "bytes": 6067
+    },
+    "upstream-update/macos/candidate/double-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-engine_collision_box_test.stdout": {
+      "sha256": "a54d57afc35a53576a7a71ae37169706f033fee1486cd683252cdfd544c9453b",
+      "bytes": 2288
+    },
+    "upstream-update/macos/candidate/double-engine_collision_box_test.xml": {
+      "sha256": "3883f20c00d36f2763c38c3878b18705ef60c433a94de674539069e81ee7b2d5",
+      "bytes": 5063
+    },
+    "upstream-update/macos/candidate/double-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-engine_collision_convex_test.stdout": {
+      "sha256": "bf23e9eac5f31d37372d2c0c2bee6c78ccac80ed14e8a5aa0d841ed93db51b68",
+      "bytes": 3260
+    },
+    "upstream-update/macos/candidate/double-engine_collision_convex_test.xml": {
+      "sha256": "cf71481a4cdf9b760b7a58a4070b7c58e4b5c1390128d9af74adfda04632c4ae",
+      "bytes": 6308
+    },
+    "upstream-update/macos/candidate/double-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-engine_collision_driver_test.stdout": {
+      "sha256": "920c394a739355c6ac969316666afa47eb742551e82eedbda1f0b2cbfcb58e1f",
+      "bytes": 12338
+    },
+    "upstream-update/macos/candidate/double-engine_collision_driver_test.xml": {
+      "sha256": "04836b31d95a0b7fa39b207cc9fda25cc9b248966a4e5c3890d06b673032b4a8",
+      "bytes": 8272
+    },
+    "upstream-update/macos/candidate/double-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-engine_collision_gjk_test.stdout": {
+      "sha256": "a0a6b68c20fcdbf155320da11566b319df7512effc41a9c4f496a3f5a133a085",
+      "bytes": 6593
+    },
+    "upstream-update/macos/candidate/double-engine_collision_gjk_test.xml": {
+      "sha256": "2cf0875e33e5646af85347aea8677eed377dc7805d0bb4aab0de9986dd241334",
+      "bytes": 20803
+    },
+    "upstream-update/macos/candidate/double-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/double-new-tests.stdout": {
+      "sha256": "f3d3281fdeb1cf582a1988d7da4eb60d7bb5b2349e6c194e215e6a92c8afa035",
+      "bytes": 824
+    },
+    "upstream-update/macos/candidate/double-new-tests.xml": {
+      "sha256": "13ae4f0898fc63b03ebabc3740dd4eb0d57b31d30b329f58839e4d19d57e7238",
+      "bytes": 985
+    },
+    "upstream-update/macos/candidate/platform.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/platform.stdout": {
+      "sha256": "559f42a9170b15be3074fd78704d62c93d50f506ecef460ca360d4f7e9f57efc",
+      "bytes": 152
+    },
+    "upstream-update/macos/candidate/retained-files.json": {
+      "sha256": "fb43114bcbd70eaa8f0cf5590a7892d38869165d982a1ac25b211184208ec5fa",
+      "bytes": 15381
+    },
+    "upstream-update/macos/candidate/single/library.sha256": {
+      "sha256": "5e8f96f725ad11605c45d0d160ebcbbdf4d5fe0526a0d3d44345aacb5ed3d7d0",
+      "bytes": 65
+    },
+    "upstream-update/macos/candidate/single-CMakeCache.txt": {
+      "sha256": "036fa073ef8903eb8c8c9947c2b843c43dd0819e7318eaf9716c0acb7656fc0f",
+      "bytes": 43482
+    },
+    "upstream-update/macos/candidate/single-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-build.stdout": {
+      "sha256": "591e36a0121871284bb6a628f5bb3e2b98295589d22535cfdfdab8f06ba6a568",
+      "bytes": 1055
+    },
+    "upstream-update/macos/candidate/single-calibration.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-calibration.stdout": {
+      "sha256": "890791b93dc101f110b27ecf2b2bcfb6327627f7132005506e2bfb3bcc70410a",
+      "bytes": 55580
+    },
+    "upstream-update/macos/candidate/single-configure.stderr": {
+      "sha256": "d9069fa2c55f7b2019a66799e41cc2c71739e10254a6bcf26e9b54cf502e9a74",
+      "bytes": 11225
+    },
+    "upstream-update/macos/candidate/single-configure.stdout": {
+      "sha256": "529c1eaf9020740e239702e7c60c2fb569197534619e6181d2b724f4fa23542f",
+      "bytes": 6067
+    },
+    "upstream-update/macos/candidate/single-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-engine_collision_box_test.stdout": {
+      "sha256": "fda53440d42905719c282e8e3702d61c718bb330b1eb8eeb6c9a2053efdc50e8",
+      "bytes": 2288
+    },
+    "upstream-update/macos/candidate/single-engine_collision_box_test.xml": {
+      "sha256": "f697e4c73f30c1e8eac637262fbc0320f10d3fcb3c8022304e8509b57ecd8bd8",
+      "bytes": 5063
+    },
+    "upstream-update/macos/candidate/single-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-engine_collision_convex_test.stdout": {
+      "sha256": "9ea299ee106ac4f2a10c17769298a059a5e868795bf462c5c8b21fff4c3a8d82",
+      "bytes": 3260
+    },
+    "upstream-update/macos/candidate/single-engine_collision_convex_test.xml": {
+      "sha256": "825888a04d61099722813fc18ec959f257fc3df137c8bed6bba0167f7e029d59",
+      "bytes": 6308
+    },
+    "upstream-update/macos/candidate/single-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-engine_collision_driver_test.stdout": {
+      "sha256": "dda39388839a994a1c5dbbd03a709de5078e34589cad4031d52a53b6b42062df",
+      "bytes": 12339
+    },
+    "upstream-update/macos/candidate/single-engine_collision_driver_test.xml": {
+      "sha256": "1acf751a063a3f6777116d9390118b52835671979f5065abff2d699f47490538",
+      "bytes": 8275
+    },
+    "upstream-update/macos/candidate/single-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-engine_collision_gjk_test.stdout": {
+      "sha256": "ee578b597697ea9e2d4531d7618327491d0e406c890ed7e44e5a82fa231657ac",
+      "bytes": 8089
+    },
+    "upstream-update/macos/candidate/single-engine_collision_gjk_test.xml": {
+      "sha256": "26c93aa27599322ef36d89a97afb550a244d18662b1d0b8067636d0312985f0a",
+      "bytes": 23623
+    },
+    "upstream-update/macos/candidate/single-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/single-new-tests.stdout": {
+      "sha256": "ce97f6d396cb568f9e0bd7c2a2809dd601c821918cffcf057610adbb8061ca4a",
+      "bytes": 824
+    },
+    "upstream-update/macos/candidate/single-new-tests.xml": {
+      "sha256": "0fed5fc3d5a1bde998b4bb9a282f7b4d16fa8e10aa37479fcd9ff88bacf09126",
+      "bytes": 985
+    },
+    "upstream-update/macos/candidate/trace-exposed.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/trace-exposed.stdout.gz": {
+      "sha256": "e3b6f355815d5aa7890c9ad95ec581538ac020a087da0379319e1cb498308ab1",
+      "bytes": 3334406
+    },
+    "upstream-update/macos/candidate/trace-fresh.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/trace-fresh.stdout.gz": {
+      "sha256": "734ac0c833c72f7d22885342cd3ef853d999273877ca5e47a1e4000c18c5528e",
+      "bytes": 3132180
+    },
+    "upstream-update/macos/candidate/trace-original.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/trace-original.stdout.gz": {
+      "sha256": "26a86323c21d4c5e8e1c3b0cc2dfba64f415afe7b746eaa1b275380440de2452",
+      "bytes": 4076512
+    },
+    "upstream-update/macos/candidate/trace-plane.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/candidate/trace-plane.stdout.gz": {
+      "sha256": "0db9c623205dc69044ee14bd7b4f5bd9bfbb26557be5cb0ce089de9af43c4aef",
+      "bytes": 4071262
+    },
+    "upstream-update/macos/reference/commands.json": {
+      "sha256": "b1f45a44753779a6907ea7c991a3464dd64bd7ae6ef07998902429267db5002d",
+      "bytes": 16061
+    },
+    "upstream-update/macos/reference/compile-probe.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/compile-probe.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/compiler.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/compiler.stdout": {
+      "sha256": "e4218d4d5446e506abd503a5a55b132b3d6e06f9b78716a6deb4334496086f21",
+      "bytes": 157
+    },
+    "upstream-update/macos/reference/completed.json": {
+      "sha256": "aca67250a45ca70472f18f396fe34fb757f148d4bebe728240fcba4344117edd",
+      "bytes": 1366
+    },
+    "upstream-update/macos/reference/double/library.sha256": {
+      "sha256": "3e1e138988bf692ccc051e0a69189565c3f4826b63e3beb378cf7a84fef92a0d",
+      "bytes": 65
+    },
+    "upstream-update/macos/reference/double-CMakeCache.txt": {
+      "sha256": "b682d2f3fc01ff8e87382fe859753977f646896f2d7114f69372b84e7218607d",
+      "bytes": 43456
+    },
+    "upstream-update/macos/reference/double-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-build.stdout": {
+      "sha256": "a2a83ee525cea7d8dac091f7a8065ad5b32d25ada2574cc0642dbe86029460c5",
+      "bytes": 1265
+    },
+    "upstream-update/macos/reference/double-configure.stderr": {
+      "sha256": "f4cc160c4609f02ef725c92366f797e293456800fc6af0cad2c57f1c482bd6ca",
+      "bytes": 11225
+    },
+    "upstream-update/macos/reference/double-configure.stdout": {
+      "sha256": "caff049acb9217607b7336a785b261ff60942a0fe47ccb804444cf8584a60ec3",
+      "bytes": 6067
+    },
+    "upstream-update/macos/reference/double-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-engine_collision_box_test.stdout": {
+      "sha256": "519ff658ab622baf13713baed58f45b56498cc5b6a31397d7306d7a28d67d478",
+      "bytes": 2353
+    },
+    "upstream-update/macos/reference/double-engine_collision_box_test.xml": {
+      "sha256": "412d58e4bf3b73470d44a4c66d371374ce918f011512f83c771f9838321bd168",
+      "bytes": 5063
+    },
+    "upstream-update/macos/reference/double-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-engine_collision_convex_test.stdout": {
+      "sha256": "08aa43a1cd07b2c6805442ea1df2a2887a9198e8594a1dcb423bd206f762cc46",
+      "bytes": 3065
+    },
+    "upstream-update/macos/reference/double-engine_collision_convex_test.xml": {
+      "sha256": "bfa94f225861e1bdedb1c9faca804aae0d4e77acc2602c6ae8972dab17ff8c75",
+      "bytes": 5659
+    },
+    "upstream-update/macos/reference/double-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-engine_collision_driver_test.stdout": {
+      "sha256": "1c83d53375d13ef3ea7e84d7800503938dd8a9e06f31a81a344af6ee30b31fe5",
+      "bytes": 12403
+    },
+    "upstream-update/macos/reference/double-engine_collision_driver_test.xml": {
+      "sha256": "2e53594712a5694e7eceb37cee75e223c9b8b0db3b3151dbf1b62b18570cd882",
+      "bytes": 8270
+    },
+    "upstream-update/macos/reference/double-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-engine_collision_gjk_test.stdout": {
+      "sha256": "815c409700dcdf3adb5220ccadc4ea0cd39e8ebf02be1949df977f474c9deef9",
+      "bytes": 6658
+    },
+    "upstream-update/macos/reference/double-engine_collision_gjk_test.xml": {
+      "sha256": "8b0cfb458ca9f7ae849e631ed6bcabf9e8be0037f6f294d39e8fc6b532c4c238",
+      "bytes": 20803
+    },
+    "upstream-update/macos/reference/double-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/double-new-tests.stdout": {
+      "sha256": "4e1afd91217764d57720597655630439f43806091777fbe67c18492c8ee8df6d",
+      "bytes": 27525
+    },
+    "upstream-update/macos/reference/double-new-tests.xml": {
+      "sha256": "a8cc15735e21d328a98877f629ceb55761bc474801696870756bd4c89b79fda5",
+      "bytes": 57146
+    },
+    "upstream-update/macos/reference/platform.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/platform.stdout": {
+      "sha256": "559f42a9170b15be3074fd78704d62c93d50f506ecef460ca360d4f7e9f57efc",
+      "bytes": 152
+    },
+    "upstream-update/macos/reference/retained-files.json": {
+      "sha256": "7502d585f36bf44db0c82b1578e36b2bc6f5d694664db8ae538de4e8fcdf4794",
+      "bytes": 14409
+    },
+    "upstream-update/macos/reference/single/library.sha256": {
+      "sha256": "831a1827824ab176d3c89415bd3d1b21b98c099cc89f189356cc6c69b3a20d85",
+      "bytes": 65
+    },
+    "upstream-update/macos/reference/single-CMakeCache.txt": {
+      "sha256": "036fa073ef8903eb8c8c9947c2b843c43dd0819e7318eaf9716c0acb7656fc0f",
+      "bytes": 43482
+    },
+    "upstream-update/macos/reference/single-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-build.stdout": {
+      "sha256": "ed4f26c2f3b89aa92a3f88f3e81ffad601edeccb6b246320da7726713aa08d87",
+      "bytes": 1265
+    },
+    "upstream-update/macos/reference/single-configure.stderr": {
+      "sha256": "d9069fa2c55f7b2019a66799e41cc2c71739e10254a6bcf26e9b54cf502e9a74",
+      "bytes": 11225
+    },
+    "upstream-update/macos/reference/single-configure.stdout": {
+      "sha256": "2a4fa7f192049cfa482a05dcc8e89cd27a850887931013b52d06b18c46169eb9",
+      "bytes": 6067
+    },
+    "upstream-update/macos/reference/single-engine_collision_box_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-engine_collision_box_test.stdout": {
+      "sha256": "f52c2f8652df92b05aca978da096f8ff775f01f114c78763433bf238c54fb453",
+      "bytes": 2353
+    },
+    "upstream-update/macos/reference/single-engine_collision_box_test.xml": {
+      "sha256": "514498c372feae83f9a2b5c8e8f37d0b917631a83d0bfea737ff0342d7b61dda",
+      "bytes": 5072
+    },
+    "upstream-update/macos/reference/single-engine_collision_convex_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-engine_collision_convex_test.stdout": {
+      "sha256": "4a1259d79f2af19013155045bb8fd0b55243c94be2412d4d116d5b952bd7dd1c",
+      "bytes": 3065
+    },
+    "upstream-update/macos/reference/single-engine_collision_convex_test.xml": {
+      "sha256": "6765a4b82f805032755aac47b42c2ceb8a814a1344244c112b676f3d06e8f6e3",
+      "bytes": 5659
+    },
+    "upstream-update/macos/reference/single-engine_collision_driver_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-engine_collision_driver_test.stdout": {
+      "sha256": "1c312a67fb807adaf5f6206fdc967545aa1e840ce90f0c3709d01260be5362c8",
+      "bytes": 12405
+    },
+    "upstream-update/macos/reference/single-engine_collision_driver_test.xml": {
+      "sha256": "3e26e7d4e5e2439fe3ed7169045b05c081aa7a57ce32013e31380538afa03c62",
+      "bytes": 8276
+    },
+    "upstream-update/macos/reference/single-engine_collision_gjk_test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-engine_collision_gjk_test.stdout": {
+      "sha256": "3f59d56803a4a47c7e6c4d6cf63a3e3a206d4d9f20e11b7c0eeb4c39ab3dee8d",
+      "bytes": 8154
+    },
+    "upstream-update/macos/reference/single-engine_collision_gjk_test.xml": {
+      "sha256": "54c7acb5517e5c4853ae645798a0ff63193668f6be7739e1a526aa3694a9b43b",
+      "bytes": 23630
+    },
+    "upstream-update/macos/reference/single-new-tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/single-new-tests.stdout": {
+      "sha256": "0daff6fbffee62f9f00e331f2d4cf843c2a89de0bd96a7f98b7f60348bdbb0b8",
+      "bytes": 14538
+    },
+    "upstream-update/macos/reference/single-new-tests.xml": {
+      "sha256": "deaaf338a21404e81b7fb73af3b9d091782f1007dc065ae802575dc9a17b5787",
+      "bytes": 29660
+    },
+    "upstream-update/macos/reference/trace-exposed.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/trace-exposed.stdout.gz": {
+      "sha256": "aa0203d43bb6923c055e0fc37c179d89cae75053261c993f22b00a0be976b528",
+      "bytes": 4601159
+    },
+    "upstream-update/macos/reference/trace-fresh.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/trace-fresh.stdout.gz": {
+      "sha256": "f4fc5231a07ee56a79a3c80f8917e1146674139b5d052a7662114969ba6bb0f8",
+      "bytes": 4810030
+    },
+    "upstream-update/macos/reference/trace-original.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/trace-original.stdout.gz": {
+      "sha256": "7a116a11c29c5f257ac167b9ea6f1a33e07c8a7477166f1af74d2610610bf595",
+      "bytes": 4192342
+    },
+    "upstream-update/macos/reference/trace-plane.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream-update/macos/reference/trace-plane.stdout.gz": {
+      "sha256": "0db9c623205dc69044ee14bd7b4f5bd9bfbb26557be5cb0ce089de9af43c4aef",
+      "bytes": 4071262
+    },
+    "upstream-update/macos-audit.json": {
+      "sha256": "8199cb4210d9c88fc0a4a8e5075b3ffc47fb8aa3e2df9a78007aed4478eb6ad1",
+      "bytes": 5962
+    },
+    "upstream-update/macos-audit.stdout": {
+      "sha256": "8199cb4210d9c88fc0a4a8e5075b3ffc47fb8aa3e2df9a78007aed4478eb6ad1",
+      "bytes": 5962
+    },
+    "upstream-update/summary.json": {
+      "sha256": "4ed0e76f3cacd871e5a963470a7a5e14dbc2df9b41c1c5fbc5d52165ba7585d6",
+      "bytes": 6611
+    },
+    "upstream-update-freeze.json": {
+      "sha256": "dd9463644d84ea901aa2bee2879bc3fb03e8b9d963b8a74fad128be5e5b6b105",
+      "bytes": 1543
+    },
     "validation.json": {
       "sha256": "7e8f4118f2a1d683ff5127799f93fe5808187f89d7fc3bdcef37b07c79ca5f42",
       "bytes": 2929
-    },
-    "submission-v1.patch": {
-      "sha256": "4745836c191c2747a31586b372ce8ed6a72cb0dc9a5c2f47a945299575aed96b",
-      "bytes": 4272
-    },
-    "submission-v2.patch": {
-      "sha256": "2fac39d23c5cd9e9b128824f2031a2c301a3567debffc643095b8d53e3e14314",
-      "bytes": 4938
     }
   }
 }

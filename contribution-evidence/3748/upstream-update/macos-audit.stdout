@@ -1,0 +1,209 @@
+{
+  "scope": "Exact-current-main revision qualification on already exposed cases, not new incidents or owner application validation.",
+  "trajectory_results": {
+    "reference-original": {
+      "rows": 30000,
+      "peak_horizontal_mm": 53.14560276419099,
+      "late_mean_horizontal_speed_mm_s": 4.014077922955699,
+      "minimum_center_z_m": 0.05277470861219825,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "9e4bcce6cfeb1eff69d4ac749404a040b54f0e9cb40d5b5842fc171557898829"
+    },
+    "reference-exposed": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.7988041901613165,
+      "late_mean_horizontal_speed_mm_s": 0.42224081856442564,
+      "minimum_center_z_m": 0.048774739736812484,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "05462d0cace1dea28a945d634173d3409976b9fd1b6019fdaf6c32f90055ced2"
+    },
+    "reference-fresh": {
+      "rows": 30000,
+      "peak_horizontal_mm": 5.909727653062437,
+      "late_mean_horizontal_speed_mm_s": 3.8754638203896623,
+      "minimum_center_z_m": 0.05677472854496231,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "24c75552727fbf865fd28434dbd792ba8b74823c005502545cfbd2c05116e302"
+    },
+    "reference-plane": {
+      "rows": 30000,
+      "peak_horizontal_mm": 9.801701804099399e-10,
+      "late_mean_horizontal_speed_mm_s": 7.591487779576406e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "fd45493ffa614edb561be813c0c55238c62d38ef0317cfeaff9fa69f66e9ed82"
+    },
+    "candidate-original": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.865999338345321e-10,
+      "late_mean_horizontal_speed_mm_s": 7.589411901674227e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "cb103982fa584c3d9b90a4cf81d1c76a68c62b8526b94cce2f7d972df78b300c"
+    },
+    "candidate-exposed": {
+      "rows": 30000,
+      "peak_horizontal_mm": 5.581504020623844e-10,
+      "late_mean_horizontal_speed_mm_s": 7.450249995044194e-10,
+      "minimum_center_z_m": 0.04877473973975535,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "dd580f7a4568a9278c34a41ee6e164bed982a2ce831da9749ee51d0f763bc172"
+    },
+    "candidate-fresh": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.3741424237540276e-08,
+      "late_mean_horizontal_speed_mm_s": 8.155559292940719e-10,
+      "minimum_center_z_m": 0.05677473973975535,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "744cd4fe2211b24131d1b53c03c8d4724800bd14e6ae54ab25723eda4512610b"
+    },
+    "candidate-plane": {
+      "rows": 30000,
+      "peak_horizontal_mm": 9.801701804099399e-10,
+      "late_mean_horizontal_speed_mm_s": 7.591487779576406e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "fd45493ffa614edb561be813c0c55238c62d38ef0317cfeaff9fa69f66e9ed82"
+    }
+  },
+  "test_results": {
+    "reference-double": {
+      "convex": {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 25,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "reference-double-new-tests": {
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "reference-single": {
+      "convex": {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 5,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 25,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "reference-single-new-tests": {
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "candidate-double": {
+      "convex": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 25,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "candidate-double-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    "candidate-single": {
+      "convex": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 5,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 25,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "candidate-single-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "checks": {
+    "reference-double-existing-or-complete-tests": true,
+    "reference-double-new-tests": true,
+    "reference-single-existing-or-complete-tests": false,
+    "reference-single-new-tests": true,
+    "candidate-double-existing-or-complete-tests": true,
+    "candidate-double-new-tests": true,
+    "candidate-single-existing-or-complete-tests": false,
+    "candidate-single-new-tests": true,
+    "candidate-panel-bound": true,
+    "retained-17-degree-criterion": true,
+    "plane-full-trace-identical": true
+  },
+  "all_checks_pass": false
+}

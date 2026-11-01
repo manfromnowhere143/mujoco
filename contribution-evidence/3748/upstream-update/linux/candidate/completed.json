@@ -1,0 +1,67 @@
+{
+  "stage": "candidate",
+  "seconds": 264.60743478599994,
+  "test_summary": {
+    "double-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "single-engine_collision_box_test": {
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "double-engine_collision_gjk_test": {
+      "tests": 68,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "single-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "single-engine_collision_convex_test": {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "double-engine_collision_convex_test": {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "single-engine_collision_driver_test": {
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "double-engine_collision_box_test": {
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "single-engine_collision_gjk_test": {
+      "tests": 68,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    },
+    "double-engine_collision_driver_test": {
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "disabled": 0
+    }
+  },
+  "status": "completed"
+}

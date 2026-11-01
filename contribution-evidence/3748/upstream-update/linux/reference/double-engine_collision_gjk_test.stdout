@@ -1,0 +1,146 @@
+Running main() from /work/qualification/build-double/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = -MjcConvexTest.HorizontalCylinderBox*
+[==========] Running 68 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 68 tests from MjGjkTest
+[ RUN      ] MjGjkTest.SphereSphereDist
+[       OK ] MjGjkTest.SphereSphereDist (3 ms)
+[ RUN      ] MjGjkTest.SphereSphereDistCutoff
+[       OK ] MjGjkTest.SphereSphereDistCutoff (0 ms)
+[ RUN      ] MjGjkTest.SphereSphereNoDist
+[       OK ] MjGjkTest.SphereSphereNoDist (0 ms)
+[ RUN      ] MjGjkTest.SphereSphereIntersect
+[       OK ] MjGjkTest.SphereSphereIntersect (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxDepth
+[       OK ] MjGjkTest.BoxBoxDepth (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxDepth2
+[       OK ] MjGjkTest.BoxBoxDepth2 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxDepth3
+[       OK ] MjGjkTest.BoxBoxDepth3 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxSize05
+[       OK ] MjGjkTest.BoxBoxSize05 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxSize05b
+[       OK ] MjGjkTest.BoxBoxSize05b (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxSize05c
+[       OK ] MjGjkTest.BoxBoxSize05c (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxTouching
+[       OK ] MjGjkTest.BoxBoxTouching (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD
+[       OK ] MjGjkTest.BoxBoxMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD2
+[       OK ] MjGjkTest.BoxBoxMultiCCD2 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD3
+[       OK ] MjGjkTest.BoxBoxMultiCCD3 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD4
+[       OK ] MjGjkTest.BoxBoxMultiCCD4 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD5
+[       OK ] MjGjkTest.BoxBoxMultiCCD5 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD6
+[       OK ] MjGjkTest.BoxBoxMultiCCD6 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD7
+[       OK ] MjGjkTest.BoxBoxMultiCCD7 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD8
+[       OK ] MjGjkTest.BoxBoxMultiCCD8 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD9
+[       OK ] MjGjkTest.BoxBoxMultiCCD9 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD10
+[       OK ] MjGjkTest.BoxBoxMultiCCD10 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD11
+[       OK ] MjGjkTest.BoxBoxMultiCCD11 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD12
+[       OK ] MjGjkTest.BoxBoxMultiCCD12 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD13
+[       OK ] MjGjkTest.BoxBoxMultiCCD13 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD14
+[       OK ] MjGjkTest.BoxBoxMultiCCD14 (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMultiCCD15
+[       OK ] MjGjkTest.BoxBoxMultiCCD15 (0 ms)
+[ RUN      ] MjGjkTest.SmallBoxMesh
+[       OK ] MjGjkTest.SmallBoxMesh (1 ms)
+[ RUN      ] MjGjkTest.BoxMesh
+[       OK ] MjGjkTest.BoxMesh (0 ms)
+[ RUN      ] MjGjkTest.BoxMesh2
+[       OK ] MjGjkTest.BoxMesh2 (0 ms)
+[ RUN      ] MjGjkTest.BoxMeshPrune
+[       OK ] MjGjkTest.BoxMeshPrune (0 ms)
+[ RUN      ] MjGjkTest.MeshMesh
+[       OK ] MjGjkTest.MeshMesh (0 ms)
+[ RUN      ] MjGjkTest.MeshMeshPrune
+[       OK ] MjGjkTest.MeshMeshPrune (0 ms)
+[ RUN      ] MjGjkTest.BoxEdge
+[       OK ] MjGjkTest.BoxEdge (0 ms)
+[ RUN      ] MjGjkTest.BoxEdge2
+[       OK ] MjGjkTest.BoxEdge2 (0 ms)
+[ RUN      ] MjGjkTest.BoxEdgeEdge
+[       OK ] MjGjkTest.BoxEdgeEdge (0 ms)
+[ RUN      ] MjGjkTest.MeshEdge
+[       OK ] MjGjkTest.MeshEdge (0 ms)
+[ RUN      ] MjGjkTest.MeshEdge2
+[       OK ] MjGjkTest.MeshEdge2 (0 ms)
+[ RUN      ] MjGjkTest.EllipsoidEllipsoidPenetrating
+[       OK ] MjGjkTest.EllipsoidEllipsoidPenetrating (0 ms)
+[ RUN      ] MjGjkTest.EllipsoidEllipsoid
+[       OK ] MjGjkTest.EllipsoidEllipsoid (0 ms)
+[ RUN      ] MjGjkTest.EllipsoidEllipsoidSlowConvergence
+[       OK ] MjGjkTest.EllipsoidEllipsoidSlowConvergence (0 ms)
+[ RUN      ] MjGjkTest.BoxBox
+[       OK ] MjGjkTest.BoxBox (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxLarge
+[       OK ] MjGjkTest.BoxBoxLarge (0 ms)
+[ RUN      ] MjGjkTest.LongBox
+[       OK ] MjGjkTest.LongBox (0 ms)
+[ RUN      ] MjGjkTest.EllipsoidEllipsoidIntersect
+[       OK ] MjGjkTest.EllipsoidEllipsoidIntersect (0 ms)
+[ RUN      ] MjGjkTest.CapsuleCapsule
+[       OK ] MjGjkTest.CapsuleCapsule (0 ms)
+[ RUN      ] MjGjkTest.CylinderBoxMargin
+[       OK ] MjGjkTest.CylinderBoxMargin (0 ms)
+[ RUN      ] MjGjkTest.BoxEdgeFlipped
+[       OK ] MjGjkTest.BoxEdgeFlipped (0 ms)
+[ RUN      ] MjGjkTest.ThinBoxGrazing
+[       OK ] MjGjkTest.ThinBoxGrazing (0 ms)
+[ RUN      ] MjGjkTest.CylinderBoxBackFaceEdge
+[       OK ] MjGjkTest.CylinderBoxBackFaceEdge (0 ms)
+[ RUN      ] MjGjkTest.CorrectFaceMultiCCD
+[       OK ] MjGjkTest.CorrectFaceMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMultiCCDShallow
+[       OK ] MjGjkTest.CapsuleMeshMultiCCDShallow (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMultiCCDEpaFallback
+[       OK ] MjGjkTest.CapsuleMeshMultiCCDEpaFallback (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMultiCCDReversed
+[       OK ] MjGjkTest.CapsuleMeshMultiCCDReversed (0 ms)
+[ RUN      ] MjGjkTest.CapsuleCylinderMultiCCD
+[       OK ] MjGjkTest.CapsuleCylinderMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMultiCCDClipped
+[       OK ] MjGjkTest.CapsuleMeshMultiCCDClipped (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMultiCCDTilted
+[       OK ] MjGjkTest.CapsuleMeshMultiCCDTilted (0 ms)
+[ RUN      ] MjGjkTest.Polytope3CoplanarSupport
+[       OK ] MjGjkTest.Polytope3CoplanarSupport (0 ms)
+[ RUN      ] MjGjkTest.GeomDistanceBelowTolerance
+[       OK ] MjGjkTest.GeomDistanceBelowTolerance (0 ms)
+[ RUN      ] MjGjkTest.MultiCCDEdgeClipEmpty
+[       OK ] MjGjkTest.MultiCCDEdgeClipEmpty (0 ms)
+[ RUN      ] MjGjkTest.TiltedBoxBoxMultiCCD
+[       OK ] MjGjkTest.TiltedBoxBoxMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMarginShallowMultiCCD
+[       OK ] MjGjkTest.BoxBoxMarginShallowMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMarginTouchingMultiCCD
+[       OK ] MjGjkTest.BoxBoxMarginTouchingMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.BoxBoxMarginDeepMultiCCD
+[       OK ] MjGjkTest.BoxBoxMarginDeepMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.BoxEdgeMarginMultiCCD
+[       OK ] MjGjkTest.BoxEdgeMarginMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.CylinderBoxMarginMultiCCD
+[       OK ] MjGjkTest.CylinderBoxMarginMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.CapsuleMeshMarginMultiCCD
+[       OK ] MjGjkTest.CapsuleMeshMarginMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.MeshMeshMarginMultiCCD
+[       OK ] MjGjkTest.MeshMeshMarginMultiCCD (0 ms)
+[ RUN      ] MjGjkTest.TiltedBoxMeshMarginMultiCCD
+[       OK ] MjGjkTest.TiltedBoxMeshMarginMultiCCD (0 ms)
+[----------] 68 tests from MjGjkTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 68 tests from 1 test suite ran. (28 ms total)
+[  PASSED  ] 68 tests.

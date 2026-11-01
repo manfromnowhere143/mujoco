@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="25" failures="0" disabled="0" errors="0" time="11.672" timestamp="2026-11-01T16:41:42.145" name="AllTests">
+  <testsuite name="MjCollisionTest" tests="25" failures="0" disabled="0" skipped="0" errors="0" time="11.671" timestamp="2026-11-01T16:41:42.145">
+    <testcase name="AllCollisions" file="/work/source/test/engine/engine_collision_driver_test.cc" line="56" status="run" result="completed" time="0.004" timestamp="2026-11-01T16:41:42.145" classname="MjCollisionTest" />
+    <testcase name="EmptyModel" file="/work/source/test/engine/engine_collision_driver_test.cc" line="74" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.149" classname="MjCollisionTest" />
+    <testcase name="ZeroedHessian" file="/work/source/test/engine/engine_collision_driver_test.cc" line="84" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.150" classname="MjCollisionTest" />
+    <testcase name="ContactCount" file="/work/source/test/engine/engine_collision_driver_test.cc" line="103" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.150" classname="MjCollisionTest" />
+    <testcase name="InGapContactsMultiGeomBody" file="/work/source/test/engine/engine_collision_driver_test.cc" line="136" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.151" classname="MjCollisionTest" />
+    <testcase name="MidphaseDescendsLargerTree" file="/work/source/test/engine/engine_collision_driver_test.cc" line="174" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.151" classname="MjCollisionTest" />
+    <testcase name="FilterParent" file="/work/source/test/engine/engine_collision_driver_test.cc" line="215" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.151" classname="MjCollisionTest" />
+    <testcase name="FilterParentDoesntAffectWorldBody" file="/work/source/test/engine/engine_collision_driver_test.cc" line="256" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.152" classname="MjCollisionTest" />
+    <testcase name="FilterStaticFlex" file="/work/source/test/engine/engine_collision_driver_test.cc" line="282" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.152" classname="MjCollisionTest" />
+    <testcase name="FilterStaticFlexSelfCollision" file="/work/source/test/engine/engine_collision_driver_test.cc" line="326" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.152" classname="MjCollisionTest" />
+    <testcase name="TestOBB" file="/work/source/test/engine/engine_collision_driver_test.cc" line="358" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.153" classname="MjCollisionTest" />
+    <testcase name="PlaneInBody" file="/work/source/test/engine/engine_collision_driver_test.cc" line="381" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:42.153" classname="MjCollisionTest" />
+    <testcase name="PinchingSucceeds" file="/work/source/test/engine/engine_collision_driver_test.cc" line="403" status="run" result="completed" time="1.415" timestamp="2026-11-01T16:41:42.153" classname="MjCollisionTest" />
+    <testcase name="MarginSumming" file="/work/source/test/engine/engine_collision_driver_test.cc" line="504" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:43.569" classname="MjCollisionTest" />
+    <testcase name="MaxContact" file="/work/source/test/engine/engine_collision_driver_test.cc" line="534" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:43.570" classname="MjCollisionTest" />
+    <testcase name="VertexFlexContactsAreNotLimited" file="/work/source/test/engine/engine_collision_driver_test.cc" line="649" status="run" result="completed" time="0.005" timestamp="2026-11-01T16:41:43.571" classname="MjCollisionTest" />
+    <testcase name="ReducibleFlexContactLimitIsPerGeom" file="/work/source/test/engine/engine_collision_driver_test.cc" line="677" status="run" result="completed" time="0.005" timestamp="2026-11-01T16:41:43.576" classname="MjCollisionTest" />
+    <testcase name="Flex3DActiveLayersMidphaseDisabled" file="/work/source/test/engine/engine_collision_driver_test.cc" line="720" status="run" result="completed" time="0.064" timestamp="2026-11-01T16:41:43.582" classname="MjCollisionTest" />
+    <testcase name="InterpolatedSelfCollisionNoContactsAtRest" file="/work/source/test/engine/engine_collision_driver_test.cc" line="931" status="run" result="completed" time="0.245" timestamp="2026-11-01T16:41:43.647" classname="MjCollisionTest" />
+    <testcase name="InterpolatedSelfCollisionExcludesSharedNodes" file="/work/source/test/engine/engine_collision_driver_test.cc" line="951" status="run" result="completed" time="0.073" timestamp="2026-11-01T16:41:43.892" classname="MjCollisionTest" />
+    <testcase name="InterpolatedSelfCollisionMidphaseParity" file="/work/source/test/engine/engine_collision_driver_test.cc" line="978" status="run" result="completed" time="0.151" timestamp="2026-11-01T16:41:43.966" classname="MjCollisionTest" />
+    <testcase name="InterpolatedSelfCollisionBoundarySymmetry" file="/work/source/test/engine/engine_collision_driver_test.cc" line="1154" status="run" result="completed" time="0.003" timestamp="2026-11-01T16:41:44.117" classname="MjCollisionTest" />
+    <testcase name="InterpolatedSelfCollisionPressedPillow" file="/work/source/test/engine/engine_collision_driver_test.cc" line="1192" status="run" result="completed" time="9.693" timestamp="2026-11-01T16:41:44.121" classname="MjCollisionTest" />
+    <testcase name="ParallelCapsuleCapsule" file="/work/source/test/engine/engine_collision_driver_test.cc" line="1241" status="run" result="completed" time="0.001" timestamp="2026-11-01T16:41:53.815" classname="MjCollisionTest" />
+    <testcase name="ParallelCapsuleCapsuleOverhang" file="/work/source/test/engine/engine_collision_driver_test.cc" line="1302" status="run" result="completed" time="0." timestamp="2026-11-01T16:41:53.816" classname="MjCollisionTest" />
+  </testsuite>
+</testsuites>

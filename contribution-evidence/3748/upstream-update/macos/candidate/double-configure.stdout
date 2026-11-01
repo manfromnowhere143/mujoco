@@ -1,0 +1,96 @@
+-- mujoco::FindOrFetch: checking for targets in package `lodepng`
+-- mujoco::FindOrFetch: checking for targets in package `lodepng` - target `lodepng` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for lodepng: https://github.com/lvandeve/lodepng.git
+-- Populating lodepng
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/lodepng-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for qhull: https://github.com/qhull/qhull.git
+-- Populating qhull
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/qhull-subbuild
+ninja: no work to do.
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     /usr/local
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyxml2: https://github.com/leethomason/tinyxml2.git
+-- Populating tinyxml2
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/tinyxml2-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyobjloader: https://github.com/tinyobjloader/tinyobjloader.git
+-- Populating tinyobjloader
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/tinyobjloader-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for ccd: https://github.com/danfis/libccd.git
+-- Populating ccd
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/ccd-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for miniz: https://github.com/richgel999/miniz.git
+-- Populating miniz
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/miniz-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `absl`
+-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for abseil-cpp: https://github.com/abseil/abseil-cpp.git
+-- Populating abseil-cpp
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/abseil-cpp-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `GTest`
+-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for googletest: https://github.com/google/googletest.git
+-- Populating googletest
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/googletest-subbuild
+ninja: no work to do.
+-- mujoco::FindOrFetch: checking for targets in package `benchmark`
+-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for benchmark: https://github.com/google/benchmark.git
+-- Populating benchmark
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/benchmark-subbuild
+ninja: no work to do.
+-- Google Benchmark version: v1.10.0, normalized to 1.10.0
+-- Configuring done (7.4s)
+-- Generating done (0.5s)
+-- Build files have been written to: /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double

@@ -1,7 +1,11 @@
 # Reproduce the cylinder support-segment correction
 
-Base: `0f1092ebb6a3247e10ed85bf72ffc3a52415f70a`.
-Correction: `8d2b7d1798b58b8294223ae37b08862d562d2061`.
+Latest checked base: `58425011e15fc26870272ec46e8586c210078471`.
+Correction: `cca77a24b381edeec2baea7b148c7a08cceb142f`.
+The patch bytes are unchanged from the initial qualification at `0f1092eb`;
+the latest base includes a collision-driver change and one additional upstream
+regression. Latest records are in `upstream-update/`. The initial records remain
+in `macos/`, `macos-formatted/` and `linux/`.
 
 Use a new scratch directory. These commands do not reset an existing checkout.
 CMake 4.1.2 and Ninja 1.13.0 are pinned in `build-requirements.lock`.
@@ -13,7 +17,7 @@ MUJOCO3748_PACKET="$PWD"
 uv venv --python 3.12 /tmp/mujoco3748-tools
 uv pip sync --python /tmp/mujoco3748-tools/bin/python --require-hashes "$MUJOCO3748_PACKET/build-requirements.lock"
 git clone --filter=blob:none --no-checkout https://github.com/google-deepmind/mujoco.git /tmp/mujoco3748-main
-git -C /tmp/mujoco3748-main checkout --detach 0f1092ebb6a3247e10ed85bf72ffc3a52415f70a
+git -C /tmp/mujoco3748-main checkout --detach 58425011e15fc26870272ec46e8586c210078471
 git -C /tmp/mujoco3748-main apply "$MUJOCO3748_PACKET/tests-formatted.patch"
 python3 "$MUJOCO3748_PACKET/qualify.py" --source /tmp/mujoco3748-main --work /tmp/mujoco3748-records \
   --cmake /tmp/mujoco3748-tools/bin/cmake --ninja /tmp/mujoco3748-tools/bin/ninja \

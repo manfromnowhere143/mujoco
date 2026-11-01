@@ -6,8 +6,10 @@ the selected flat-face normal before the existing clipping operation. It address
 resting on a box moves without an applied horizontal force. No solver setting,
 friction coefficient, timestep or released default is changed.
 
-The base is `0f1092ebb6a3247e10ed85bf72ffc3a52415f70a`, verified current main at
-intake and checked again before publication. The submitted source is
+The initial base is `0f1092ebb6a3247e10ed85bf72ffc3a52415f70a`, verified current
+main at intake. Upstream advanced before PR creation; the subsequent execution
+against `58425011e15fc26870272ec46e8586c210078471` is recorded separately in
+[the upstream-update report](upstream-update/README.md). The initial correction is
 `8d2b7d1798b58b8294223ae37b08862d562d2061`. Its two commits contain 19 added
 production lines and two regression tests; the second commit only applies the
 project's C++ formatting. `submission-source.json` binds both files and the
@@ -29,7 +31,7 @@ directly: changing XML order alone does not establish which order the collision
 driver executes. The second regression runs the reported resting case for
 2,500 steps. Both tests fail on the uncorrected library in both precisions.
 
-## Results
+## Initial-base results
 
 Default double precision, 60 simulated seconds per trajectory, 2 ms timestep.
 All rows use the same correction and criteria. Maximum horizontal displacement

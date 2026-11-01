@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.013" timestamp="2026-11-01T16:44:05.868" name="AllTests">
+  <testsuite name="MjcConvexTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.012" timestamp="2026-11-01T16:44:05.868">
+    <testcase name="HorizontalCylinderBoxSupportLine" file="/work/source/test/engine/engine_collision_convex_test.cc" line="541" status="run" result="completed" time="0.004" timestamp="2026-11-01T16:44:05.868" classname="MjcConvexTest" />
+    <testcase name="HorizontalCylinderBoxRemainsAtRest" file="/work/source/test/engine/engine_collision_convex_test.cc" line="587" status="run" result="completed" time="0.008" timestamp="2026-11-01T16:44:05.873" classname="MjcConvexTest" />
+  </testsuite>
+</testsuites>

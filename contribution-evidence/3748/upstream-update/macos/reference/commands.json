@@ -1,0 +1,339 @@
+[
+  {
+    "label": "compiler",
+    "command": [
+      "clang++",
+      "--version"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:35:54.805097+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.12718049995601177
+  },
+  {
+    "label": "platform",
+    "command": [
+      "uname",
+      "-a"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:35:54.932704+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.005071124993264675
+  },
+  {
+    "label": "double-configure",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/cmake",
+      "-S",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source",
+      "-B",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DMUJOCO_BUILD_EXAMPLES=OFF",
+      "-DMUJOCO_BUILD_SIMULATE=OFF",
+      "-DMUJOCO_BUILD_STUDIO=OFF",
+      "-DMUJOCO_BUILD_TESTS=ON",
+      "-DMUJOCO_TEST_PYTHON_UTIL=OFF"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:35:54.938201+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 6.9178943750448525
+  },
+  {
+    "label": "double-build",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/cmake",
+      "--build",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:01.857055+00:00",
+    "timeout_seconds": 900,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 13.142381750047207
+  },
+  {
+    "label": "double-engine_collision_convex_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double-engine_collision_convex_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:15.010891+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.7165692499838769
+  },
+  {
+    "label": "double-engine_collision_gjk_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double-engine_collision_gjk_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:15.727993+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.23892691708169878
+  },
+  {
+    "label": "double-engine_collision_driver_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double-engine_collision_driver_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:15.967415+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 10.673598875058815
+  },
+  {
+    "label": "double-engine_collision_box_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/bin/engine_collision_box_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double-engine_collision_box_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:26.642039+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.5035557500086725
+  },
+  {
+    "label": "double-new-tests",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double-new-tests.xml"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:27.150313+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 1,
+    "seconds": 0.03892012499272823
+  },
+  {
+    "label": "compile-probe",
+    "command": [
+      "clang++",
+      "-std=c++17",
+      "-O2",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01/native_probe.cc",
+      "-I",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/include",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/libmujoco.3.17.1.dylib",
+      "-Wl,-rpath,/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double",
+      "-o",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/probe"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:27.192053+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.5052021669689566
+  },
+  {
+    "label": "trace-original",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/probe",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01/reported.xml",
+      "60"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:27.697918+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.7895731672178954
+  },
+  {
+    "label": "trace-exposed",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/probe",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01/confirmation.xml",
+      "60"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:28.488172+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.34640045813284814
+  },
+  {
+    "label": "trace-fresh",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/probe",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01/support-line-confirmation.xml",
+      "60"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:28.836623+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.35688220895826817
+  },
+  {
+    "label": "trace-plane",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/double/probe",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01/plane.xml",
+      "60"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:29.194350+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.3445682500023395
+  },
+  {
+    "label": "single-configure",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/cmake",
+      "-S",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source",
+      "-B",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DMUJOCO_BUILD_EXAMPLES=OFF",
+      "-DMUJOCO_BUILD_SIMULATE=OFF",
+      "-DMUJOCO_BUILD_STUDIO=OFF",
+      "-DMUJOCO_BUILD_TESTS=ON",
+      "-DMUJOCO_TEST_PYTHON_UTIL=OFF",
+      "-DCMAKE_C_FLAGS=-DmjUSESINGLE",
+      "-DCMAKE_CXX_FLAGS=-DmjUSESINGLE"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:29.539704+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 6.859414416830987
+  },
+  {
+    "label": "single-build",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/bin/cmake",
+      "--build",
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos",
+    "started_utc": "2026-11-01T16:36:36.400189+00:00",
+    "timeout_seconds": 900,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 14.663202583091334
+  },
+  {
+    "label": "single-engine_collision_convex_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/single-engine_collision_convex_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:51.073599+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.4501164578832686
+  },
+  {
+    "label": "single-engine_collision_gjk_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/single-engine_collision_gjk_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:51.524607+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 1,
+    "seconds": 0.23874895786866546
+  },
+  {
+    "label": "single-engine_collision_driver_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/single-engine_collision_driver_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:36:51.764094+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 14.653113083913922
+  },
+  {
+    "label": "single-engine_collision_box_test",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/bin/engine_collision_box_test",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/single-engine_collision_box_test.xml",
+      "--gtest_filter=-MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:37:06.426551+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.8950776250567287
+  },
+  {
+    "label": "single-new-tests",
+    "command": [
+      "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/updated-reference/single-new-tests.xml"
+    ],
+    "cwd": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test",
+    "started_utc": "2026-11-01T16:37:07.322716+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 1,
+    "seconds": 0.08376766601577401
+  }
+]

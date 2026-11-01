@@ -1,0 +1,10 @@
+{
+  "base": "58425011e15fc26870272ec46e8586c210078471",
+  "head": "cca77a24b381edeec2baea7b148c7a08cceb142f",
+  "working_tree_clean": true,
+  "changed_files": [
+    "src/engine/engine_collision_gjk.c",
+    "test/engine/engine_collision_convex_test.cc"
+  ],
+  "patch_sha256": "7b9d47d8ae8b93ece35fb061d512ced80bb281dbbe201656125948294ae529dd"
+}

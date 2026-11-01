@@ -1,0 +1,13 @@
+[0/2] Re-checking globbed directories...
+[1/8] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_gjk.c.o
+[2/8] Linking CXX shared library lib/libmujoco.3.17.1.dylib
+ld: warning: ignoring duplicate libraries: 'lib/libtinyobjloader.a'
+ld: warning: object file (lib/libminiz.a[2](miniz.c.o)) was built for newer 'macOS' version (14.0) than being linked (11.0)
+ld: warning: object file (lib/libminiz.a[3](miniz_zip.c.o)) was built for newer 'macOS' version (14.0) than being linked (11.0)
+ld: warning: object file (lib/libminiz.a[4](miniz_tinfl.c.o)) was built for newer 'macOS' version (14.0) than being linked (11.0)
+ld: warning: object file (lib/libminiz.a[5](miniz_tdef.c.o)) was built for newer 'macOS' version (14.0) than being linked (11.0)
+[3/8] Creating library symlink lib/libmujoco.dylib
+[4/8] Linking CXX executable bin/engine_collision_convex_test
+[5/8] Linking CXX executable bin/engine_collision_box_test
+[6/8] Linking CXX executable bin/engine_collision_driver_test
+[7/8] Linking CXX executable bin/engine_collision_gjk_test

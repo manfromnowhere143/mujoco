@@ -1,0 +1,139 @@
+{
+  "utc": "2026-11-01T16:46:23.463778+00:00",
+  "source": {
+    "utc": "2026-11-01T16:35:33.065963+00:00",
+    "base": "58425011e15fc26870272ec46e8586c210078471",
+    "candidate": "cca77a24b381edeec2baea7b148c7a08cceb142f",
+    "cause": "Upstream main advanced before PR creation; BVH collision-driver change is pertinent and requires execution on the new base.",
+    "files": {
+      "src/engine/engine_collision_gjk.c": "9a8e61100f3b2660ef87875c42e5ff2aafbf443ab96a8715635f0359cd2d65c3",
+      "test/engine/engine_collision_convex_test.cc": "cd41079f33cbf45d34b68bd947e85641f5d79fd812fb193794a939acc9a3dab4",
+      "src/engine/engine_collision_driver.c": "ce12341a2c8c6e2238d12a5766fa2f1ad2440ad3a6ea24c84006bcd554fd46d9",
+      "test/engine/engine_collision_driver_test.cc": "01611c6e303d3d4165c57876c0138f6d953f1e1bc4a41d63e3363f4f18ec0041"
+    },
+    "test_contract": "Unchanged diagnostic cases, 60-second double-precision panel, both precisions and four executables; new upstream driver test is included. No scientific endpoint changed.",
+    "source_archive_sha256": "934492c711c8a3a373c5ebfdbe2c4ea1e94005b32cbc86fbc96fe67f52563af8",
+    "resources": "Local CPU only, two build jobs; Linux 2 CPU / 4 GiB with 900-second container deadline. Existing dependency caches reused.",
+    "status": "frozen before execution",
+    "scripts": {
+      "qualify_update.py": "e13dfb91efc8fca00ced2bad324ee21421c744c17be4f9670f067bf2ce11d36e",
+      "linux_update.py": "bbec8b1025929e0d0782549d80f75a0bd25d1801ae57c2684844bb5872bb447f",
+      "launch_linux_update.py": "69dc0cb41e953d85de146c7b13b4b5ae09e552db63260b6a1f7524b2b2d1fa63"
+    }
+  },
+  "platforms": {
+    "macos": {
+      "audit_exit_code": 1,
+      "precisions": {
+        "double": {
+          "tests": 127,
+          "failures": 0,
+          "failure_messages_identical_to_reference": true,
+          "failures_by_name": {}
+        },
+        "single": {
+          "tests": 127,
+          "failures": 5,
+          "failure_messages_identical_to_reference": true,
+          "failures_by_name": {
+            "MjGjkTest.BoxBoxDepth2": [
+              "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:332\nExpected equality of these values:\n  ncons\n    Which is: 0\n  1\n"
+            ],
+            "MjGjkTest.BoxBoxDepth3": [
+              "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:397\nThe difference between dir[1] and 0 is 2.4296377887367271e-06, which exceeds kTolerance, where\ndir[1] evaluates to -2.4296377887367271e-06,\n0 evaluates to 0, and\nkTolerance evaluates to 9.9999999747524271e-07.\n"
+            ],
+            "MjGjkTest.BoxBoxMultiCCD12": [
+              "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1215\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+            ],
+            "MjGjkTest.EllipsoidEllipsoidSlowConvergence": [
+              "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1914\nExpected: (dist) < (0.0), actual: 1.40129846e-45 vs 0\n"
+            ],
+            "MjGjkTest.BoxBoxMarginDeepMultiCCD": [
+              "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:2718\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+            ]
+          }
+        }
+      },
+      "checks": {
+        "reference-double-existing-or-complete-tests": true,
+        "reference-double-new-tests": true,
+        "reference-single-existing-or-complete-tests": false,
+        "reference-single-new-tests": true,
+        "candidate-double-existing-or-complete-tests": true,
+        "candidate-double-new-tests": true,
+        "candidate-single-existing-or-complete-tests": false,
+        "candidate-single-new-tests": true,
+        "candidate-panel-bound": true,
+        "retained-17-degree-criterion": true,
+        "plane-full-trace-identical": true
+      }
+    },
+    "linux": {
+      "audit_exit_code": 0,
+      "precisions": {
+        "double": {
+          "tests": 127,
+          "failures": 0,
+          "failure_messages_identical_to_reference": true,
+          "failures_by_name": {}
+        },
+        "single": {
+          "tests": 127,
+          "failures": 0,
+          "failure_messages_identical_to_reference": true,
+          "failures_by_name": {}
+        }
+      },
+      "checks": {
+        "reference-double-existing-or-complete-tests": true,
+        "reference-double-new-tests": true,
+        "reference-single-existing-or-complete-tests": true,
+        "reference-single-new-tests": true,
+        "candidate-double-existing-or-complete-tests": true,
+        "candidate-double-new-tests": true,
+        "candidate-single-existing-or-complete-tests": true,
+        "candidate-single-new-tests": true,
+        "candidate-panel-bound": true,
+        "retained-17-degree-criterion": true,
+        "plane-full-trace-identical": true
+      }
+    }
+  },
+  "linux_cleanup": {
+    "started_utc": "2026-11-01T16:35:54.733468+00:00",
+    "command": [
+      "/Applications/Docker.app/Contents/Resources/bin/docker",
+      "run",
+      "--pull=never",
+      "--rm",
+      "--name",
+      "nisayon-mujoco3748-update-20261101",
+      "--cpus",
+      "2",
+      "--memory",
+      "4g",
+      "--pids-limit",
+      "256",
+      "--security-opt",
+      "no-new-privileges",
+      "--mount",
+      "type=bind,src=/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/work/experiments/mujoco-main-submission-2026-11-01,dst=/packet,readonly",
+      "--mount",
+      "type=bind,src=/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-linux,dst=/work",
+      "--entrypoint",
+      "timeout",
+      "sha256:33995abe6d5c9739bc6ddafc5a230c473b5a6df06e23e9b52f343d657316450f",
+      "900",
+      "python",
+      "/packet/linux_update.py"
+    ],
+    "source_archive_sha256": "934492c711c8a3a373c5ebfdbe2c4ea1e94005b32cbc86fbc96fe67f52563af8",
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 624.6015973340254,
+    "remaining_container_ids": [],
+    "cleanup_check_exit": 0
+  },
+  "verdict": "SUPPORTED only for the bounded CPU correction if the recorded gates pass; no owner application or independent review result.",
+  "paid_compute_usd": 0
+}

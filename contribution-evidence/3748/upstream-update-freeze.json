@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-01T16:35:33.065963+00:00",
+  "base": "58425011e15fc26870272ec46e8586c210078471",
+  "candidate": "cca77a24b381edeec2baea7b148c7a08cceb142f",
+  "cause": "Upstream main advanced before PR creation; BVH collision-driver change is pertinent and requires execution on the new base.",
+  "files": {
+    "src/engine/engine_collision_gjk.c": "9a8e61100f3b2660ef87875c42e5ff2aafbf443ab96a8715635f0359cd2d65c3",
+    "test/engine/engine_collision_convex_test.cc": "cd41079f33cbf45d34b68bd947e85641f5d79fd812fb193794a939acc9a3dab4",
+    "src/engine/engine_collision_driver.c": "ce12341a2c8c6e2238d12a5766fa2f1ad2440ad3a6ea24c84006bcd554fd46d9",
+    "test/engine/engine_collision_driver_test.cc": "01611c6e303d3d4165c57876c0138f6d953f1e1bc4a41d63e3363f4f18ec0041"
+  },
+  "test_contract": "Unchanged diagnostic cases, 60-second double-precision panel, both precisions and four executables; new upstream driver test is included. No scientific endpoint changed.",
+  "source_archive_sha256": "934492c711c8a3a373c5ebfdbe2c4ea1e94005b32cbc86fbc96fe67f52563af8",
+  "resources": "Local CPU only, two build jobs; Linux 2 CPU / 4 GiB with 900-second container deadline. Existing dependency caches reused.",
+  "status": "frozen before execution",
+  "scripts": {
+    "qualify_update.py": "e13dfb91efc8fca00ced2bad324ee21421c744c17be4f9670f067bf2ce11d36e",
+    "linux_update.py": "bbec8b1025929e0d0782549d80f75a0bd25d1801ae57c2684844bb5872bb447f",
+    "launch_linux_update.py": "69dc0cb41e953d85de146c7b13b4b5ae09e552db63260b6a1f7524b2b2d1fa63"
+  }
+}

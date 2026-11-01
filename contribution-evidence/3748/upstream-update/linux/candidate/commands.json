@@ -1,0 +1,357 @@
+[
+  {
+    "label": "compiler",
+    "command": [
+      "g++",
+      "--version"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:41:54.447518+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.0033369579999771304
+  },
+  {
+    "label": "platform",
+    "command": [
+      "uname",
+      "-a"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:41:54.451712+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.003132584000013594
+  },
+  {
+    "label": "double-configure",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "-S",
+      "/work/source",
+      "-B",
+      "/work/qualification/build-double",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/tmp/mj-main-tools/bin/ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DMUJOCO_BUILD_EXAMPLES=OFF",
+      "-DMUJOCO_BUILD_SIMULATE=OFF",
+      "-DMUJOCO_BUILD_STUDIO=OFF",
+      "-DMUJOCO_BUILD_TESTS=ON",
+      "-DMUJOCO_TEST_PYTHON_UTIL=OFF"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:41:54.455634+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 2.5258583759999738
+  },
+  {
+    "label": "double-build",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "--build",
+      "/work/qualification/build-double",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:41:56.982911+00:00",
+    "timeout_seconds": 900,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 116.01832780299998
+  },
+  {
+    "label": "double-engine_collision_convex_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/double-engine_collision_convex_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:43:53.028150+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.03899820800000953
+  },
+  {
+    "label": "double-engine_collision_gjk_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/double-engine_collision_gjk_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:43:53.068084+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.07106512500001827
+  },
+  {
+    "label": "double-engine_collision_driver_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/double-engine_collision_driver_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:43:53.139911+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 12.23707775600002
+  },
+  {
+    "label": "double-engine_collision_box_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_box_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/double-engine_collision_box_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:44:05.379207+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.4839078749999999
+  },
+  {
+    "label": "double-new-tests",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/work/qualification/updated-candidate/double-new-tests.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:44:05.863848+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.020177165999996305
+  },
+  {
+    "label": "double-calibration",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:44:05.884933+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 1,
+    "seconds": 0.04054541600004313
+  },
+  {
+    "label": "compile-probe",
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "/packet/native_probe.cc",
+      "-I",
+      "/work/source/include",
+      "/work/qualification/updated-candidate/double/libmujoco.so.3.17.1",
+      "-Wl,-rpath,/work/qualification/updated-candidate/double",
+      "-o",
+      "/work/qualification/updated-candidate/double/probe"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:05.926778+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.2952388330000417
+  },
+  {
+    "label": "trace-original",
+    "command": [
+      "/work/qualification/updated-candidate/double/probe",
+      "/packet/reported.xml",
+      "60"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:06.222922+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.3483407090000128
+  },
+  {
+    "label": "trace-exposed",
+    "command": [
+      "/work/qualification/updated-candidate/double/probe",
+      "/packet/confirmation.xml",
+      "60"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:06.586960+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.45048966699999937
+  },
+  {
+    "label": "trace-fresh",
+    "command": [
+      "/work/qualification/updated-candidate/double/probe",
+      "/packet/support-line-confirmation.xml",
+      "60"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:07.081338+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.554846083999962
+  },
+  {
+    "label": "trace-plane",
+    "command": [
+      "/work/qualification/updated-candidate/double/probe",
+      "/packet/plane.xml",
+      "60"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:07.678219+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.3074464590000048
+  },
+  {
+    "label": "single-configure",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "-S",
+      "/work/source",
+      "-B",
+      "/work/qualification/build-single",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/tmp/mj-main-tools/bin/ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DMUJOCO_BUILD_EXAMPLES=OFF",
+      "-DMUJOCO_BUILD_SIMULATE=OFF",
+      "-DMUJOCO_BUILD_STUDIO=OFF",
+      "-DMUJOCO_BUILD_TESTS=ON",
+      "-DMUJOCO_TEST_PYTHON_UTIL=OFF",
+      "-DCMAKE_C_FLAGS=-DmjUSESINGLE",
+      "-DCMAKE_CXX_FLAGS=-DmjUSESINGLE"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:07.996534+00:00",
+    "timeout_seconds": 600,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 2.5810095429999933
+  },
+  {
+    "label": "single-build",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "--build",
+      "/work/qualification/build-single",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/work/qualification",
+    "started_utc": "2026-11-01T16:44:10.578893+00:00",
+    "timeout_seconds": 900,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 116.01203538700003
+  },
+  {
+    "label": "single-engine_collision_convex_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/single-engine_collision_convex_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:06.616342+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.03736762500000168
+  },
+  {
+    "label": "single-engine_collision_gjk_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/single-engine_collision_gjk_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:06.655316+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.03760454199994001
+  },
+  {
+    "label": "single-engine_collision_driver_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/single-engine_collision_driver_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:06.693764+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 11.784004089000064
+  },
+  {
+    "label": "single-engine_collision_box_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_box_test",
+      "--gtest_output=xml:/work/qualification/updated-candidate/single-engine_collision_box_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:18.479550+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.5056620829999474
+  },
+  {
+    "label": "single-new-tests",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/work/qualification/updated-candidate/single-new-tests.xml"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:18.986218+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 0,
+    "seconds": 0.02175275000001875
+  },
+  {
+    "label": "single-calibration",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*"
+    ],
+    "cwd": "/work/source/test",
+    "started_utc": "2026-11-01T16:46:19.009334+00:00",
+    "timeout_seconds": 180,
+    "status": "completed",
+    "exit_code": 1,
+    "seconds": 0.038080790999970304
+  }
+]
