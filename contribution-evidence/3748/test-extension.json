@@ -1,0 +1,5 @@
+{
+  "utc": "2026-11-01T16:16:14.199368+00:00",
+  "reason": "Explicit argument-order coverage required because driver may reorder XML geoms. No production change. Tests v1 retained.",
+  "sha256": "72466c6a44dad7e44c9eb21f4e3b174210aaccb5070a96127a2dbd8f18d64109"
+}

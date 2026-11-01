@@ -1,0 +1,16 @@
+{
+  "base": "0f1092ebb6a3247e10ed85bf72ffc3a52415f70a",
+  "head": "8d2b7d1798b58b8294223ae37b08862d562d2061",
+  "patch_sha256": "7b9d47d8ae8b93ece35fb061d512ced80bb281dbbe201656125948294ae529dd",
+  "files": {
+    "src/engine/engine_collision_gjk.c": {
+      "git_blob": "4e581e7bcd49d3648e051232cadfab1efd34eb67",
+      "sha256": "9a8e61100f3b2660ef87875c42e5ff2aafbf443ab96a8715635f0359cd2d65c3"
+    },
+    "test/engine/engine_collision_convex_test.cc": {
+      "git_blob": "46369d15454629f2602935bb41b3a2ad06a9b2ef",
+      "sha256": "cd41079f33cbf45d34b68bd947e85641f5d79fd812fb193794a939acc9a3dab4"
+    }
+  },
+  "commits": "commit 8d2b7d1798b58b8294223ae37b08862d562d2061\nAuthor:     Daniel Wahnich <cogitoergosum143@gmail.com>\nAuthorDate: Sun Nov 1 18:22:08 2026 +0200\nCommit:     Daniel Wahnich <cogitoergosum143@gmail.com>\nCommitDate: Sun Nov 1 18:22:08 2026 +0200\n\n    Format cylinder contact regressions with the project style\n\ncommit 623bd2f9f1e7b8ac719010ae79dc78cf5db30041\nAuthor:     Daniel Wahnich <cogitoergosum143@gmail.com>\nAuthorDate: Sun Nov 1 18:18:38 2026 +0200\nCommit:     Daniel Wahnich <cogitoergosum143@gmail.com>\nCommitDate: Sun Nov 1 18:18:38 2026 +0200\n\n    Recover cylinder support segments from the selected face normal\n    \n    Reconstruct zero-margin cylinder side segments after edge-face selection so approximate EPA witnesses do not retain a transverse offset. Preserve the existing alignment, clipping and positive-margin paths.\n    \n    Add support-line checks at five yaw angles, direct collider argument-order coverage and a resting-cylinder regression. Use precision-aware test tolerances.\n"
+}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="2" disabled="0" errors="0" time="0.015" timestamp="2026-11-01T16:21:33.157" name="AllTests">
+  <testsuite name="MjcConvexTest" tests="2" failures="2" disabled="0" skipped="0" errors="0" time="0.015" timestamp="2026-11-01T16:21:33.157">
+    <testcase name="HorizontalCylinderBoxSupportLine" file="/work/source/test/engine/engine_collision_convex_test.cc" line="541" status="run" result="completed" time="0.005" timestamp="2026-11-01T16:21:33.157" classname="MjcConvexTest">
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.008989843065411e-09,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.008989843065411e-09,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.0626775606530081e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.0626775606530081e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.0626775606530081e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.0626775606530081e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.0626775606530081e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.0626775606530081e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.0626775606530081e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.0626775606530081e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.008989843065411e-09,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.008989843065411e-09,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 0&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 0
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 1.7318459829435392e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.7318459829435392e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 1.7318459829435392e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459829435392e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 1.7318459830274752e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.7318459830274752e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 1.7318459830274752e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459830274752e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 3.1594068517453659e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.1594068517453659e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 3.1594068517453659e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.1594068517453659e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.5124018479099367e-10, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019999984875981522,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.5124018479099367e-10, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019999984875981522,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 3.1594068517571108e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.1594068517571108e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 3.1594068517571108e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.1594068517571108e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.5124018479099367e-10, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019999984875981522,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.5124018479099367e-10, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019999984875981522,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.7318459829435392e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.7318459829435392e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.7318459829435392e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459829435392e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.7318459830274752e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -1.7318459830274752e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 15&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.7318459830274752e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459830274752e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 15
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 4.9354132478534438e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -4.9354132478534438e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 4.9354132478534438e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.9354132478534438e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 4.935413247905423e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -4.935413247905423e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 4.935413247905423e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.935413247905423e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 2.7947603854318569e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 2.7947603854318569e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 2.7947603854318569e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 2.7947603854318569e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.1834372145983797e-10, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019999988165627855,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.1834372145983797e-10, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019999988165627855,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 2.7947603854370547e-06, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 2.7947603854370547e-06,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 2.7947603854370547e-06, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 2.7947603854370547e-06,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.1834372145983797e-10, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019999988165627855,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.1834372145983797e-10, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019999988165627855,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 4.9354132478534438e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -4.9354132478534438e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 4.9354132478534438e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.9354132478534438e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 4.935413247905423e-07, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to -4.935413247905423e-07,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 30&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 4.935413247905423e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.935413247905423e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 30
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 8.7968886429755581e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 8.7968886429755581e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 8.7968886429755581e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886429755581e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 8.7968886434642908e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 8.7968886434642908e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 8.7968886434642908e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886434642908e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 9.1172037618490957e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 9.1172037618490957e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 9.1172037618490957e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 9.1172037618490957e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 9.1172037619908837e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 9.1172037619908837e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 9.1172037619908837e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 9.1172037619908837e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 8.7968886429755581e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 8.7968886429755581e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 8.7968886429755581e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886429755581e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 8.7968886434642908e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 8.7968886434642908e-08,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 60&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 8.7968886434642908e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886434642908e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 60
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 3.2103232189695463e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.2103232189695463e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 3.2103232189695463e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189695463e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:565&#x0A;The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contact.dist evaluates to -0.00019998438457937209,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:565
+The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contact.dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:563&#x0A;The difference between offset and 0 is 3.2103232189689121e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.2103232189689121e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:563
+The difference between offset and 0 is 3.2103232189689121e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189689121e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:565&#x0A;The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contact.dist evaluates to -0.00019998438457937209,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:565
+The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contact.dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.2829386551647825e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 1.2829386551647825e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.2829386551647825e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 1.2829386551647825e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 2.4938358439126427e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.0001999975061641561,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 2.4938358439126427e-09, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.0001999975061641561,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 1.2829386551641479e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 1.2829386551641479e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 1.2829386551641479e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 1.2829386551641479e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 2.4938358439126427e-09, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.0001999975061641561,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 0&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 2.4938358439126427e-09, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.0001999975061641561,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 0
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 3.2103232189695463e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.2103232189695463e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 3.2103232189695463e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189695463e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019998438457937209,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:576&#x0A;The difference between offset and 0 is 3.2103232189689121e-05, which exceeds MjTol(1e-10, 1e-7), where&#x0A;offset evaluates to 3.2103232189689121e-05,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:576
+The difference between offset and 0 is 3.2103232189689121e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189689121e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:578&#x0A;The difference between contacts[i].dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where&#x0A;contacts[i].dist evaluates to -0.00019998438457937209,&#x0A;-0.0002 evaluates to -0.00020000000000000001, and&#x0A;MjTol(1e-10, 1e-7) evaluates to 1e-10.&#x0A;Google Test trace:&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:570: 1&#x0A;/work/source/test/engine/engine_collision_convex_test.cc:552: 90&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:578
+The difference between contacts[i].dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contacts[i].dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/work/source/test/engine/engine_collision_convex_test.cc:570: 1
+/work/source/test/engine/engine_collision_convex_test.cc:552: 90
+]]></failure>
+    </testcase>
+    <testcase name="HorizontalCylinderBoxRemainsAtRest" file="/work/source/test/engine/engine_collision_convex_test.cc" line="584" status="run" result="completed" time="0.01" timestamp="2026-11-01T16:21:33.163" classname="MjcConvexTest">
+      <failure message="/work/source/test/engine/engine_collision_convex_test.cc:602&#x0A;The difference between max_displacement and 0 is 0.027124483094874301, which exceeds MjTol(1e-7, 1e-5), where&#x0A;max_displacement evaluates to 0.027124483094874301,&#x0A;0 evaluates to 0, and&#x0A;MjTol(1e-7, 1e-5) evaluates to 9.9999999999999995e-08.&#x0A;" type=""><![CDATA[/work/source/test/engine/engine_collision_convex_test.cc:602
+The difference between max_displacement and 0 is 0.027124483094874301, which exceeds MjTol(1e-7, 1e-5), where
+max_displacement evaluates to 0.027124483094874301,
+0 evaluates to 0, and
+MjTol(1e-7, 1e-5) evaluates to 9.9999999999999995e-08.
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

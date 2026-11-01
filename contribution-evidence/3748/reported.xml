@@ -1,0 +1,10 @@
+<mujoco>
+  <option timestep="0.002"/>
+  <worldbody>
+    <geom name="floor" type="box" size="0.12 0.12 0.02"/>
+    <body name="cylinder" pos="0 0 0.053" quat="0.7071068 0.7071068 0 0">
+      <freejoint/>
+      <geom type="cylinder" size="0.033 0.0615" mass="0.05"/>
+    </body>
+  </worldbody>
+</mujoco>

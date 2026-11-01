@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-01T16:17:42.608130+00:00",
+  "platform": "Linux ARM64, local Docker CPU, same cases and production arithmetic",
+  "cpu": 2,
+  "memory": "4g",
+  "container_deadline_seconds": 1800,
+  "source": "0f1092ebb6a3247e10ed85bf72ffc3a52415f70a",
+  "source_archive_sha256": "7d38cf97c5c045682c0476a1dfb89b38988bea7592cef35a2f5ffa1f83fd8745",
+  "sha256": {
+    "submission-final.patch": "2fac39d23c5cd9e9b128824f2031a2c301a3567debffc643095b8d53e3e14314",
+    "tests-final.patch": "72466c6a44dad7e44c9eb21f4e3b174210aaccb5070a96127a2dbd8f18d64109",
+    "production.patch": "8a2d4a1e045cc0d10e9d461abcf4d593bf31baf789497fb2bbc1efd07c79bc7a",
+    "qualify.py": "8e55e6f2db1750cf766abcc4fa3c3d692628a6a08391d32dc25a036d5ba434ac",
+    "linux_driver.py": "b4ed08b5b2e410d2533a3e1ab9d1a788c680e05ad0cd2da47834367428e8096e",
+    "launch_linux.py": "8bc2cf9e6bf6ab7733b9a551bd636f87a6660b15175e3f6b2d2fc0d43d2b8f24"
+  },
+  "macos_preexisting_single_failures": [
+    "BoxBoxDepth2",
+    "BoxBoxDepth3",
+    "BoxBoxMultiCCD12",
+    "EllipsoidEllipsoidSlowConvergence",
+    "BoxBoxMarginDeepMultiCCD"
+  ],
+  "interpretation": "Report all failures; compare baseline and candidate signatures, do not relabel complete suite green."
+}

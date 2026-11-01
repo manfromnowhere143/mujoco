@@ -1,0 +1,141 @@
+Running main() from /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from MjCollisionTest
+[ RUN      ] MjCollisionTest.AllCollisions
+[       OK ] MjCollisionTest.AllCollisions (1 ms)
+[ RUN      ] MjCollisionTest.EmptyModel
+[       OK ] MjCollisionTest.EmptyModel (0 ms)
+[ RUN      ] MjCollisionTest.ZeroedHessian
+[       OK ] MjCollisionTest.ZeroedHessian (0 ms)
+[ RUN      ] MjCollisionTest.ContactCount
+[       OK ] MjCollisionTest.ContactCount (0 ms)
+[ RUN      ] MjCollisionTest.InGapContactsMultiGeomBody
+[       OK ] MjCollisionTest.InGapContactsMultiGeomBody (0 ms)
+[ RUN      ] MjCollisionTest.FilterParent
+[       OK ] MjCollisionTest.FilterParent (0 ms)
+[ RUN      ] MjCollisionTest.FilterParentDoesntAffectWorldBody
+[       OK ] MjCollisionTest.FilterParentDoesntAffectWorldBody (0 ms)
+[ RUN      ] MjCollisionTest.FilterStaticFlex
+[       OK ] MjCollisionTest.FilterStaticFlex (0 ms)
+[ RUN      ] MjCollisionTest.FilterStaticFlexSelfCollision
+[       OK ] MjCollisionTest.FilterStaticFlexSelfCollision (0 ms)
+[ RUN      ] MjCollisionTest.TestOBB
+[       OK ] MjCollisionTest.TestOBB (0 ms)
+[ RUN      ] MjCollisionTest.PlaneInBody
+[       OK ] MjCollisionTest.PlaneInBody (0 ms)
+[ RUN      ] MjCollisionTest.PinchingSucceeds
+[       OK ] MjCollisionTest.PinchingSucceeds (1260 ms)
+[ RUN      ] MjCollisionTest.MarginSumming
+[       OK ] MjCollisionTest.MarginSumming (0 ms)
+[ RUN      ] MjCollisionTest.MaxContact
+[       OK ] MjCollisionTest.MaxContact (0 ms)
+[ RUN      ] MjCollisionTest.VertexFlexContactsAreNotLimited
+[       OK ] MjCollisionTest.VertexFlexContactsAreNotLimited (4 ms)
+[ RUN      ] MjCollisionTest.ReducibleFlexContactLimitIsPerGeom
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184740 "flex 'box' is not rigid and has no equality constraints or passive forces\nElement name 'box', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] MjCollisionTest.ReducibleFlexContactLimitIsPerGeom (4 ms)
+[ RUN      ] MjCollisionTest.Flex3DActiveLayersMidphaseDisabled
+[       OK ] MjCollisionTest.Flex3DActiveLayersMidphaseDisabled (39 ms)
+[ RUN      ] MjCollisionTest.InterpolatedSelfCollisionNoContactsAtRest
+[       OK ] MjCollisionTest.InterpolatedSelfCollisionNoContactsAtRest (211 ms)
+[ RUN      ] MjCollisionTest.InterpolatedSelfCollisionExcludesSharedNodes
+[       OK ] MjCollisionTest.InterpolatedSelfCollisionExcludesSharedNodes (64 ms)
+[ RUN      ] MjCollisionTest.InterpolatedSelfCollisionMidphaseParity
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184500 "flex 'span' is not rigid and has no equality constraints or passive forces\nElement name 'span', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184500 "flex 'span' is not rigid and has no equality constraints or passive forces\nElement name 'span', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184500 "flex 'span' is not rigid and has no equality constraints or passive forces\nElement name 'span', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184500 "flex 'span' is not rigid and has no equality constraints or passive forces\nElement name 'span', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] MjCollisionTest.InterpolatedSelfCollisionMidphaseParity (127 ms)
+[ RUN      ] MjCollisionTest.InterpolatedSelfCollisionBoundarySymmetry
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16b184540 "flex 'tris' is not rigid and has no equality constraints or passive forces\nElement name 'tris', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] MjCollisionTest.InterpolatedSelfCollisionBoundarySymmetry (3 ms)
+[ RUN      ] MjCollisionTest.InterpolatedSelfCollisionPressedPillow
+[       OK ] MjCollisionTest.InterpolatedSelfCollisionPressedPillow (8385 ms)
+[ RUN      ] MjCollisionTest.ParallelCapsuleCapsule
+[       OK ] MjCollisionTest.ParallelCapsuleCapsule (0 ms)
+[ RUN      ] MjCollisionTest.ParallelCapsuleCapsuleOverhang
+[       OK ] MjCollisionTest.ParallelCapsuleCapsuleOverhang (0 ms)
+[----------] 24 tests from MjCollisionTest (10107 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (10107 ms total)
+[  PASSED  ] 24 tests.

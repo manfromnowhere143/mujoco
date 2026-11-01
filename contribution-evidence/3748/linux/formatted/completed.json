@@ -1,0 +1,72 @@
+{
+  "double": {
+    "library_sha256": "1867bdfb500938bc4be9a83fad16b6af3da02b586772784d34c8bcc6a725396d",
+    "library_unchanged": true,
+    "tests": {
+      "engine_collision_convex_test": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_gjk_test": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_driver_test": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_box_test": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "canaries": {
+      "loaded_reference": true,
+      "tests": 2,
+      "failures": 2,
+      "environment": {
+        "LD_LIBRARY_PATH": "/work/qualification/reference/double",
+        "LD_DEBUG": "libs"
+      }
+    }
+  },
+  "single": {
+    "library_sha256": "0770676699cf95d898396ea1b3c8c05d44293c1b9e2d9befa4f84d53360c411d",
+    "library_unchanged": true,
+    "tests": {
+      "engine_collision_convex_test": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_gjk_test": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_driver_test": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_box_test": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "canaries": {
+      "loaded_reference": true,
+      "tests": 2,
+      "failures": 2,
+      "environment": {
+        "LD_LIBRARY_PATH": "/work/qualification/reference/single",
+        "LD_DEBUG": "libs"
+      }
+    }
+  }
+}

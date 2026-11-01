@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-01T16:12:10.742961+00:00",
+  "base": "0f1092ebb6a3247e10ed85bf72ffc3a52415f70a",
+  "outputs_observed": false,
+  "authority": "User explicitly requested current-main execution, contribution delivery, maintainer review and owner application results. Local CPU only; no paid resources.",
+  "scope": "Revision/platform qualification of the existing candidate; same exposed diagnostic cases, not independent incidents. Production arithmetic unchanged; comments/style and test precision support adapted.",
+  "budget": {
+    "jobs": 2,
+    "linux_memory": "4g",
+    "each_platform_seconds": 1800,
+    "total_engineering_seconds": 7200,
+    "paid_compute": false
+  },
+  "gates": [
+    "Two new tests fail separately on uncorrected source in double precision; measure single-precision sensitivity separately.",
+    "Targeted convex/GJK/driver/box tests pass with correction in both precisions; report unrelated baseline failures separately.",
+    "Double-precision same eight trajectories: every corrected trace finite, supported, peak horizontal displacement < 0.1 mm; previously frozen 17-degree case reference >= 1 mm and candidate < 1% reference; plane full trace unchanged.",
+    "Calibrate only regression-test numerical tolerances using upstream MJTOL_SCALE=0; retain attempts; this is not a change to the frozen double-precision trajectory acceptance. Single-precision test displacement must remain below 0.1 mm.",
+    "Before submission inspect the exact outgoing patch and commit identities; preserve private research history."
+  ],
+  "packaging_correction": "Old support-line-current-main.patch contained only tests, contrary to combined-patch implication in handoff. Prior support-line-with-tests.patch experiments remain valid. Retain old evidence unchanged.",
+  "sha256": {
+    "plane.xml": "4c39ad29a3d5e6485d31f122618af50e85c6bc100b3bd1a2c239ab27a4900760",
+    "native_probe.cc": "cd39613e6a1967f094d2756d8fcab050a5fb3d9c82d13e82e03ba5fb29ec59ba",
+    "submission-v1.patch": "4745836c191c2747a31586b372ce8ed6a72cb0dc9a5c2f47a945299575aed96b",
+    "build-requirements.lock": "e58837a8634846a81567ee15234e1c4a962c5067f26ee3552e4e41a3ea73a595",
+    "confirmation.xml": "8d96b81faf7e6b1bde60caf6b65c200bbc75e49dc199b596f6baafe322af6fb4",
+    "tests-v1.patch": "1d8e4065683039d854292e117b72a7a230b94e1b6e0dbfd6121d813e48562392",
+    "support-line-confirmation.xml": "377901906f2e87e247e613f979d8ef216e2e9a63750c9b457e5609c87e3a0c8f",
+    "production.patch": "8a2d4a1e045cc0d10e9d461abcf4d593bf31baf789497fb2bbc1efd07c79bc7a",
+    "reported.xml": "2408b3800460f243cb27d7c5eda7604d3a5dda9837f8ba0efe2c734641906532"
+  }
+}

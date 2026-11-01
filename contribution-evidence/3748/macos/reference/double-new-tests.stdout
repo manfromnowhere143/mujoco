@@ -1,0 +1,121 @@
+Running main() from /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-double/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MjcConvexTest.HorizontalCylinderBox*
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MjcConvexTest
+[ RUN      ] MjcConvexTest.HorizontalCylinderBoxSupportLine
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 0
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 1.008989843065411e-09, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.008989843065411e-09,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 0
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 1.7318459829782337e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459829782337e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 15
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 1.7318459830621697e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -1.7318459830621697e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 15
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 4.9354132479228327e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.9354132479228327e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 30
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 4.935413247974812e-07, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to -4.935413247974812e-07,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 30
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 8.7968886433225028e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886433225028e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 60
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 8.7968886434642908e-08, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 8.7968886434642908e-08,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 60
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 3.2103232189695463e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189695463e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 90
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:565: Failure
+The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contact.dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 90
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:563: Failure
+The difference between offset and 0 is 3.2103232189689121e-05, which exceeds MjTol(1e-10, 1e-7), where
+offset evaluates to 3.2103232189689121e-05,
+0 evaluates to 0, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 90
+
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:565: Failure
+The difference between contact.dist and -0.0002 is 1.5615420627916468e-08, which exceeds MjTol(1e-10, 1e-7), where
+contact.dist evaluates to -0.00019998438457937209,
+-0.0002 evaluates to -0.00020000000000000001, and
+MjTol(1e-10, 1e-7) evaluates to 1e-10.
+Google Test trace:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:552: 90
+
+[  FAILED  ] MjcConvexTest.HorizontalCylinderBoxSupportLine (0 ms)
+[ RUN      ] MjcConvexTest.HorizontalCylinderBoxRemainsAtRest
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_convex_test.cc:588: Failure
+The difference between max_displacement and 0 is 0.028683703725036078, which exceeds MjTol(1e-7, 1e-5), where
+max_displacement evaluates to 0.028683703725036078,
+0 evaluates to 0, and
+MjTol(1e-7, 1e-5) evaluates to 9.9999999999999995e-08.
+
+[  FAILED  ] MjcConvexTest.HorizontalCylinderBoxRemainsAtRest (8 ms)
+[----------] 2 tests from MjcConvexTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (9 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] MjcConvexTest.HorizontalCylinderBoxSupportLine
+[  FAILED  ] MjcConvexTest.HorizontalCylinderBoxRemainsAtRest
+
+ 2 FAILED TESTS

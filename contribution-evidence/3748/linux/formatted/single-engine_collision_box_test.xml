@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="0" disabled="0" errors="0" time="0.472" timestamp="2026-11-01T16:30:35.233" name="AllTests">
+  <testsuite name="MjCollisionBoxTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0.472" timestamp="2026-11-01T16:30:35.233">
+    <testcase name="BadContacts" file="/work/source/test/engine/engine_collision_box_test.cc" line="43" status="run" result="completed" time="0.007" timestamp="2026-11-01T16:30:35.233" classname="MjCollisionBoxTest" />
+    <testcase name="DuplicateContacts" file="/work/source/test/engine/engine_collision_box_test.cc" line="146" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.240" classname="MjCollisionBoxTest" />
+    <testcase name="DeepPenetration" file="/work/source/test/engine/engine_collision_box_test.cc" line="233" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.241" classname="MjCollisionBoxTest" />
+    <testcase name="BoxSphere" file="/work/source/test/engine/engine_collision_box_test.cc" line="248" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.241" classname="MjCollisionBoxTest" />
+    <testcase name="BoxBoxContactDistance" file="/work/source/test/engine/engine_collision_box_test.cc" line="275" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.242" classname="MjCollisionBoxTest" />
+    <testcase name="ThinBoxNoSpuriousDeepContact" file="/work/source/test/engine/engine_collision_box_test.cc" line="300" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.242" classname="MjCollisionBoxTest" />
+    <testcase name="ThinBoxShallowPenetration" file="/work/source/test/engine/engine_collision_box_test.cc" line="360" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.243" classname="MjCollisionBoxTest" />
+    <testcase name="ThinBoxTunneledPenetration" file="/work/source/test/engine/engine_collision_box_test.cc" line="409" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.243" classname="MjCollisionBoxTest" />
+    <testcase name="EdgeContactAtDepthBound" file="/work/source/test/engine/engine_collision_box_test.cc" line="474" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.243" classname="MjCollisionBoxTest" />
+    <testcase name="NearAlignedManifoldIsExact" file="/work/source/test/engine/engine_collision_box_test.cc" line="549" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.244" classname="MjCollisionBoxTest" />
+    <testcase name="ShallowOverlapSurvivesRounding" file="/work/source/test/engine/engine_collision_box_test.cc" line="625" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.244" classname="MjCollisionBoxTest" />
+    <testcase name="AlignedTowerStands" file="/work/source/test/engine/engine_collision_box_test.cc" line="668" status="run" result="completed" time="0.458" timestamp="2026-11-01T16:30:35.245" classname="MjCollisionBoxTest" />
+    <testcase name="ConcentricAndContainedBoxes" file="/work/source/test/engine/engine_collision_box_test.cc" line="724" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.704" classname="MjCollisionBoxTest" />
+    <testcase name="CanonicalFaceAndEdgeAlignments" file="/work/source/test/engine/engine_collision_box_test.cc" line="778" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.704" classname="MjCollisionBoxTest" />
+    <testcase name="CapsuleBoxLargeMarginDistance" file="/work/source/test/engine/engine_collision_box_test.cc" line="834" status="run" result="completed" time="0." timestamp="2026-11-01T16:30:35.705" classname="MjCollisionBoxTest" />
+  </testsuite>
+</testsuites>

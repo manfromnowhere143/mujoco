@@ -1,0 +1,43 @@
+{
+  "baseline_failures": {
+    "double": {},
+    "single": {
+      "MjGjkTest.BoxBoxDepth2": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:332\nExpected equality of these values:\n  ncons\n    Which is: 0\n  1\n"
+      ],
+      "MjGjkTest.BoxBoxDepth3": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:397\nThe difference between dir[1] and 0 is 2.4296377887367271e-06, which exceeds kTolerance, where\ndir[1] evaluates to -2.4296377887367271e-06,\n0 evaluates to 0, and\nkTolerance evaluates to 9.9999999747524271e-07.\n"
+      ],
+      "MjGjkTest.BoxBoxMultiCCD12": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1215\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+      ],
+      "MjGjkTest.EllipsoidEllipsoidSlowConvergence": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1914\nExpected: (dist) < (0.0), actual: 1.40129846e-45 vs 0\n"
+      ],
+      "MjGjkTest.BoxBoxMarginDeepMultiCCD": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:2718\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+      ]
+    }
+  },
+  "candidate_failures": {
+    "double": {},
+    "single": {
+      "MjGjkTest.BoxBoxDepth2": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:332\nExpected equality of these values:\n  ncons\n    Which is: 0\n  1\n"
+      ],
+      "MjGjkTest.BoxBoxDepth3": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:397\nThe difference between dir[1] and 0 is 2.4296377887367271e-06, which exceeds kTolerance, where\ndir[1] evaluates to -2.4296377887367271e-06,\n0 evaluates to 0, and\nkTolerance evaluates to 9.9999999747524271e-07.\n"
+      ],
+      "MjGjkTest.BoxBoxMultiCCD12": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1215\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+      ],
+      "MjGjkTest.EllipsoidEllipsoidSlowConvergence": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:1914\nExpected: (dist) < (0.0), actual: 1.40129846e-45 vs 0\n"
+      ],
+      "MjGjkTest.BoxBoxMarginDeepMultiCCD": [
+        "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/engine/engine_collision_gjk_test.cc:2718\nExpected equality of these values:\n  ncons\n    Which is: 0\n  4\n"
+      ]
+    }
+  },
+  "identical_failure_messages": true
+}

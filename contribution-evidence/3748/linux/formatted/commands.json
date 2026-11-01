@@ -1,0 +1,140 @@
+[
+  {
+    "label": "double-build",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "--build",
+      "/work/qualification/build-double",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 10.117694713000105
+  },
+  {
+    "label": "double-engine_collision_convex_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/work/qualification/formatted/double-engine_collision_convex_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.04041224999991755
+  },
+  {
+    "label": "double-engine_collision_gjk_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/work/qualification/formatted/double-engine_collision_gjk_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.07633674999999585
+  },
+  {
+    "label": "double-engine_collision_driver_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/work/qualification/formatted/double-engine_collision_driver_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 12.228890964000016
+  },
+  {
+    "label": "double-engine_collision_box_test",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_box_test",
+      "--gtest_output=xml:/work/qualification/formatted/double-engine_collision_box_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.48711695899999086
+  },
+  {
+    "label": "double-canaries",
+    "command": [
+      "/work/qualification/build-double/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/work/qualification/formatted/double-canaries.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 1,
+    "seconds": 0.0723059590000048
+  },
+  {
+    "label": "single-build",
+    "command": [
+      "/tmp/mj-main-tools/bin/cmake",
+      "--build",
+      "/work/qualification/build-single",
+      "--target",
+      "engine_collision_convex_test",
+      "engine_collision_gjk_test",
+      "engine_collision_driver_test",
+      "engine_collision_box_test",
+      "-j",
+      "2"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 10.10581058699995
+  },
+  {
+    "label": "single-engine_collision_convex_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_convex_test",
+      "--gtest_output=xml:/work/qualification/formatted/single-engine_collision_convex_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.03799158300000727
+  },
+  {
+    "label": "single-engine_collision_gjk_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_gjk_test",
+      "--gtest_output=xml:/work/qualification/formatted/single-engine_collision_gjk_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.07145087500009595
+  },
+  {
+    "label": "single-engine_collision_driver_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_driver_test",
+      "--gtest_output=xml:/work/qualification/formatted/single-engine_collision_driver_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 12.050291755999979
+  },
+  {
+    "label": "single-engine_collision_box_test",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_box_test",
+      "--gtest_output=xml:/work/qualification/formatted/single-engine_collision_box_test.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 0,
+    "seconds": 0.5328426249999438
+  },
+  {
+    "label": "single-canaries",
+    "command": [
+      "/work/qualification/build-single/bin/engine_collision_convex_test",
+      "--gtest_filter=MjcConvexTest.HorizontalCylinderBox*",
+      "--gtest_output=xml:/work/qualification/formatted/single-canaries.xml"
+    ],
+    "cwd": "/work/source/test",
+    "exit_code": 1,
+    "seconds": 0.03757791699990776
+  }
+]

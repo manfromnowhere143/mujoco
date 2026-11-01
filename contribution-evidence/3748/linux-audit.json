@@ -1,0 +1,209 @@
+{
+  "scope": "Exact-current-main revision qualification on already exposed cases, not new incidents or owner application validation.",
+  "trajectory_results": {
+    "reference-original": {
+      "rows": 30000,
+      "peak_horizontal_mm": 11910.631510485207,
+      "late_mean_horizontal_speed_mm_s": 397.3132524835328,
+      "minimum_center_z_m": -1445.2194426930275,
+      "first_center_below_platform_top_s": 42.87800000000644,
+      "uncompressed_sha256": "4b0977a1d99243d3975eb8a1020a0aa400e96ab80c5077bde9742a6b44adc9f7"
+    },
+    "reference-exposed": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.797411017458872,
+      "late_mean_horizontal_speed_mm_s": 0.42240112353351555,
+      "minimum_center_z_m": 0.04877473973681249,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "4b47443f74f2eb02ba4281399e12ec83514d6b488ec8f4dbcac3f9e7a2a4ed8c"
+    },
+    "reference-fresh": {
+      "rows": 30000,
+      "peak_horizontal_mm": 5.909726566397905,
+      "late_mean_horizontal_speed_mm_s": 3.875463826558929,
+      "minimum_center_z_m": 0.05677472854496231,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "b2ac047299199f8080979ca0eedc14992c0eb42aa41694a1302b38b7195aad0d"
+    },
+    "reference-plane": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.83368712800204e-10,
+      "late_mean_horizontal_speed_mm_s": 8.35809642024893e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "9c872c2c38142234b9820f986b67d11fd72b115adc8d69a7855ea76d5e02747b"
+    },
+    "candidate-original": {
+      "rows": 30000,
+      "peak_horizontal_mm": 2.763624726440623e-09,
+      "late_mean_horizontal_speed_mm_s": 8.479842938791574e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "5256fa4280120d6418200a8a772f1debcfdd4de3a157f01169053bd1fcfabd06"
+    },
+    "candidate-exposed": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.246168817498772e-10,
+      "late_mean_horizontal_speed_mm_s": 7.451649145974312e-10,
+      "minimum_center_z_m": 0.04877473973975535,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "02dd6314817a6d8bf27a7e8ab661ab4e820158030a21cb1e57d520b973de3adb"
+    },
+    "candidate-fresh": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.4723063793452316e-08,
+      "late_mean_horizontal_speed_mm_s": 8.21534044234601e-10,
+      "minimum_center_z_m": 0.05677473973975535,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "87f54781d9ec6b3fdf08ffee2629db6bf055be4dee1f928e289c9e1bb232ec75"
+    },
+    "candidate-plane": {
+      "rows": 30000,
+      "peak_horizontal_mm": 4.83368712800204e-10,
+      "late_mean_horizontal_speed_mm_s": 8.35809642024893e-10,
+      "minimum_center_z_m": 0.052774739739755355,
+      "first_center_below_platform_top_s": null,
+      "uncompressed_sha256": "9c872c2c38142234b9820f986b67d11fd72b115adc8d69a7855ea76d5e02747b"
+    }
+  },
+  "test_results": {
+    "reference-double": {
+      "convex": {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "reference-double-new-tests": {
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "reference-single": {
+      "convex": {
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "reference-single-new-tests": {
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "candidate-double": {
+      "convex": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "candidate-double-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    "candidate-single": {
+      "convex": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "gjk": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "driver": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      },
+      "box": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "disabled": 0
+      }
+    },
+    "candidate-single-new-tests": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "checks": {
+    "reference-double-existing-or-complete-tests": true,
+    "reference-double-new-tests": true,
+    "reference-single-existing-or-complete-tests": true,
+    "reference-single-new-tests": true,
+    "candidate-double-existing-or-complete-tests": true,
+    "candidate-double-new-tests": true,
+    "candidate-single-existing-or-complete-tests": true,
+    "candidate-single-new-tests": true,
+    "candidate-panel-bound": true,
+    "retained-17-degree-criterion": true,
+    "plane-full-trace-identical": true
+  },
+  "all_checks_pass": true
+}

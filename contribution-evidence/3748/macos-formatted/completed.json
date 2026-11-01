@@ -1,0 +1,72 @@
+{
+  "double": {
+    "library_sha256": "72c5db286ffca44a40aee47d65f4cf15cbfaea0e95b5f09eaee6f019232e9035",
+    "library_unchanged": true,
+    "tests": {
+      "engine_collision_convex_test": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_gjk_test": {
+        "tests": 68,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_driver_test": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_box_test": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "canaries": {
+      "loaded_reference": true,
+      "tests": 2,
+      "failures": 2,
+      "environment": {
+        "DYLD_LIBRARY_PATH": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/reference/double",
+        "DYLD_PRINT_LIBRARIES": "1"
+      }
+    }
+  },
+  "single": {
+    "library_sha256": "32503e122b1ad26f7f1eea3397c2facef8ef36997de1954cd43ff172b34983f6",
+    "library_unchanged": true,
+    "tests": {
+      "engine_collision_convex_test": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_gjk_test": {
+        "tests": 68,
+        "failures": 5,
+        "errors": 0
+      },
+      "engine_collision_driver_test": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0
+      },
+      "engine_collision_box_test": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "canaries": {
+      "loaded_reference": true,
+      "tests": 2,
+      "failures": 2,
+      "environment": {
+        "DYLD_LIBRARY_PATH": "/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/reference/single",
+        "DYLD_PRINT_LIBRARIES": "1"
+      }
+    }
+  }
+}

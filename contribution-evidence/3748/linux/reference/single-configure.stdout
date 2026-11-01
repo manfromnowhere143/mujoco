@@ -1,0 +1,274 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CAN_BUILD_AVX
+-- Performing Test CAN_BUILD_AVX - Failed
+-- Performing Test SUPPORTS_LLD
+-- Performing Test SUPPORTS_LLD - Failed
+-- Performing Test SUPPORTS_GOLD
+-- Performing Test SUPPORTS_GOLD - Success
+-- Performing Test SUPPORTS_GC_SECTIONS
+-- Performing Test SUPPORTS_GC_SECTIONS - Success
+-- mujoco::FindOrFetch: checking for targets in package `lodepng`
+-- mujoco::FindOrFetch: checking for targets in package `lodepng` - target `lodepng` not defined.
+-- Found Git: /usr/bin/git (found version "2.39.5")
+-- mujoco::FindOrFetch: Using FetchContent for lodepng: https://github.com/lvandeve/lodepng.git
+-- Populating lodepng
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/lodepng-subbuild
+[1/9] Creating directories for 'lodepng-populate'
+[1/9] Performing download step for 'lodepng-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/lodepng-src/.git/
+[2/9] No update_disconnected step for 'lodepng-populate'
+[3/9] No patch_disconnected step for 'lodepng-populate'
+[5/9] No configure step for 'lodepng-populate'
+[6/9] No build step for 'lodepng-populate'
+[7/9] No install step for 'lodepng-populate'
+[8/9] No test step for 'lodepng-populate'
+[9/9] Completed 'lodepng-populate'
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for qhull: https://github.com/qhull/qhull.git
+-- Populating qhull
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/qhull-subbuild
+[1/9] Creating directories for 'qhull-populate'
+[1/9] Performing download step for 'qhull-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/qhull-src/.git/
+[2/9] No update_disconnected step for 'qhull-populate'
+[3/9] Performing patch_disconnected step for 'qhull-populate'
+[5/9] No configure step for 'qhull-populate'
+[6/9] No build step for 'qhull-populate'
+[7/9] No install step for 'qhull-populate'
+[8/9] No test step for 'qhull-populate'
+[9/9] Completed 'qhull-populate'
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Check size of off_t
+-- Check size of off_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for ftello
+-- Looking for ftello - found
+-- Looking for PRIdMAX
+-- Looking for PRIdMAX - found
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     /usr/local
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyxml2: https://github.com/leethomason/tinyxml2.git
+-- Populating tinyxml2
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/tinyxml2-subbuild
+[1/9] Creating directories for 'tinyxml2-populate'
+[1/9] Performing download step for 'tinyxml2-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/tinyxml2-src/.git/
+[2/9] No update_disconnected step for 'tinyxml2-populate'
+[3/9] No patch_disconnected step for 'tinyxml2-populate'
+[5/9] No configure step for 'tinyxml2-populate'
+[6/9] No build step for 'tinyxml2-populate'
+[7/9] No install step for 'tinyxml2-populate'
+[8/9] No test step for 'tinyxml2-populate'
+[9/9] Completed 'tinyxml2-populate'
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyobjloader: https://github.com/tinyobjloader/tinyobjloader.git
+-- Populating tinyobjloader
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/tinyobjloader-subbuild
+[1/9] Creating directories for 'tinyobjloader-populate'
+[1/9] Performing download step for 'tinyobjloader-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/tinyobjloader-src/.git/
+[2/9] No update_disconnected step for 'tinyobjloader-populate'
+[3/9] No patch_disconnected step for 'tinyobjloader-populate'
+[5/9] No configure step for 'tinyobjloader-populate'
+[6/9] No build step for 'tinyobjloader-populate'
+[7/9] No install step for 'tinyobjloader-populate'
+[8/9] No test step for 'tinyobjloader-populate'
+[9/9] Completed 'tinyobjloader-populate'
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for ccd: https://github.com/danfis/libccd.git
+-- Populating ccd
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/ccd-subbuild
+[1/9] Creating directories for 'ccd-populate'
+[1/9] Performing download step for 'ccd-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/ccd-src/.git/
+[2/9] No update_disconnected step for 'ccd-populate'
+[3/9] Performing patch_disconnected step for 'ccd-populate'
+[5/9] No configure step for 'ccd-populate'
+[6/9] No build step for 'ccd-populate'
+[7/9] No install step for 'ccd-populate'
+[8/9] No test step for 'ccd-populate'
+[9/9] Completed 'ccd-populate'
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for miniz: https://github.com/richgel999/miniz.git
+-- Populating miniz
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/miniz-subbuild
+[1/9] Creating directories for 'miniz-populate'
+[1/9] Performing download step for 'miniz-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/miniz-src/.git/
+[2/9] No update_disconnected step for 'miniz-populate'
+[3/9] No patch_disconnected step for 'miniz-populate'
+[5/9] No configure step for 'miniz-populate'
+[6/9] No build step for 'miniz-populate'
+[7/9] No install step for 'miniz-populate'
+[8/9] No test step for 'miniz-populate'
+[9/9] Completed 'miniz-populate'
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- mujoco::FindOrFetch: checking for targets in package `absl`
+-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for abseil-cpp: https://github.com/abseil/abseil-cpp.git
+-- Populating abseil-cpp
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/abseil-cpp-subbuild
+[1/9] Creating directories for 'abseil-cpp-populate'
+[1/9] Performing download step for 'abseil-cpp-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/abseil-cpp-src/.git/
+[2/9] No update_disconnected step for 'abseil-cpp-populate'
+[3/9] Performing patch_disconnected step for 'abseil-cpp-populate'
+[5/9] No configure step for 'abseil-cpp-populate'
+[6/9] No build step for 'abseil-cpp-populate'
+[7/9] No install step for 'abseil-cpp-populate'
+[8/9] No test step for 'abseil-cpp-populate'
+[9/9] Completed 'abseil-cpp-populate'
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- mujoco::FindOrFetch: checking for targets in package `GTest`
+-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for googletest: https://github.com/google/googletest.git
+-- Populating googletest
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/googletest-subbuild
+[1/9] Creating directories for 'googletest-populate'
+[1/9] Performing download step for 'googletest-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/googletest-src/.git/
+[2/9] No update_disconnected step for 'googletest-populate'
+[3/9] No patch_disconnected step for 'googletest-populate'
+[5/9] No configure step for 'googletest-populate'
+[6/9] No build step for 'googletest-populate'
+[7/9] No install step for 'googletest-populate'
+[8/9] No test step for 'googletest-populate'
+[9/9] Completed 'googletest-populate'
+-- mujoco::FindOrFetch: checking for targets in package `benchmark`
+-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for benchmark: https://github.com/google/benchmark.git
+-- Populating benchmark
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/qualification/build-single/_deps/benchmark-subbuild
+[1/9] Creating directories for 'benchmark-populate'
+[1/9] Performing download step for 'benchmark-populate'
+Initialized empty Git repository in /work/qualification/build-single/_deps/benchmark-src/.git/
+[2/9] No update_disconnected step for 'benchmark-populate'
+[3/9] No patch_disconnected step for 'benchmark-populate'
+[5/9] No configure step for 'benchmark-populate'
+[6/9] No build step for 'benchmark-populate'
+[7/9] No install step for 'benchmark-populate'
+[8/9] No test step for 'benchmark-populate'
+[9/9] Completed 'benchmark-populate'
+-- Google Benchmark version: v1.10.0, normalized to 1.10.0
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2 - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Compiling and running to test HAVE_STD_REGEX
+-- Performing Test HAVE_STD_REGEX -- success
+-- Compiling and running to test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Compiling and running to test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Compiling and running to test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Compiling and running to test HAVE_PTHREAD_AFFINITY
+-- Performing Test HAVE_PTHREAD_AFFINITY -- success
+-- Found Python3: /usr/local/bin/python3.12 (found version "3.12.13") found components: Interpreter
+-- Configuring done (17.8s)
+-- Generating done (0.7s)
+-- Build files have been written to: /work/qualification/build-single

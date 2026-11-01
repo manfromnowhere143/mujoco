@@ -1,0 +1,95 @@
+       611:	find library=libmujoco.so.3.17.1 [0]; searching
+       611:	 search path=/work/qualification/reference/single/tls/aarch64/atomics:/work/qualification/reference/single/tls/aarch64:/work/qualification/reference/single/tls/atomics:/work/qualification/reference/single/tls:/work/qualification/reference/single/aarch64/atomics:/work/qualification/reference/single/aarch64:/work/qualification/reference/single/atomics:/work/qualification/reference/single		(LD_LIBRARY_PATH)
+       611:	  trying file=/work/qualification/reference/single/tls/aarch64/atomics/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/tls/aarch64/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/tls/atomics/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/tls/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/aarch64/atomics/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/aarch64/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/atomics/libmujoco.so.3.17.1
+       611:	  trying file=/work/qualification/reference/single/libmujoco.so.3.17.1
+       611:	
+       611:	find library=libm.so.6 [0]; searching
+       611:	 search path=/work/qualification/reference/single		(LD_LIBRARY_PATH)
+       611:	  trying file=/work/qualification/reference/single/libm.so.6
+       611:	 search path=/work/qualification/build-single/lib/tls/aarch64/atomics:/work/qualification/build-single/lib/tls/aarch64:/work/qualification/build-single/lib/tls/atomics:/work/qualification/build-single/lib/tls:/work/qualification/build-single/lib/aarch64/atomics:/work/qualification/build-single/lib/aarch64:/work/qualification/build-single/lib/atomics:/work/qualification/build-single/lib		(RUNPATH from file /work/qualification/build-single/bin/engine_collision_convex_test)
+       611:	  trying file=/work/qualification/build-single/lib/tls/aarch64/atomics/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/tls/aarch64/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/tls/atomics/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/tls/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/aarch64/atomics/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/aarch64/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/atomics/libm.so.6
+       611:	  trying file=/work/qualification/build-single/lib/libm.so.6
+       611:	 search cache=/etc/ld.so.cache
+       611:	  trying file=/lib/aarch64-linux-gnu/libm.so.6
+       611:	
+       611:	find library=libstdc++.so.6 [0]; searching
+       611:	 search path=/work/qualification/reference/single		(LD_LIBRARY_PATH)
+       611:	  trying file=/work/qualification/reference/single/libstdc++.so.6
+       611:	 search path=/work/qualification/build-single/lib		(RUNPATH from file /work/qualification/build-single/bin/engine_collision_convex_test)
+       611:	  trying file=/work/qualification/build-single/lib/libstdc++.so.6
+       611:	 search cache=/etc/ld.so.cache
+       611:	  trying file=/lib/aarch64-linux-gnu/libstdc++.so.6
+       611:	
+       611:	find library=libgcc_s.so.1 [0]; searching
+       611:	 search path=/work/qualification/reference/single		(LD_LIBRARY_PATH)
+       611:	  trying file=/work/qualification/reference/single/libgcc_s.so.1
+       611:	 search path=/work/qualification/build-single/lib		(RUNPATH from file /work/qualification/build-single/bin/engine_collision_convex_test)
+       611:	  trying file=/work/qualification/build-single/lib/libgcc_s.so.1
+       611:	 search cache=/etc/ld.so.cache
+       611:	  trying file=/lib/aarch64-linux-gnu/libgcc_s.so.1
+       611:	
+       611:	find library=libc.so.6 [0]; searching
+       611:	 search path=/work/qualification/reference/single		(LD_LIBRARY_PATH)
+       611:	  trying file=/work/qualification/reference/single/libc.so.6
+       611:	 search path=/work/qualification/build-single/lib		(RUNPATH from file /work/qualification/build-single/bin/engine_collision_convex_test)
+       611:	  trying file=/work/qualification/build-single/lib/libc.so.6
+       611:	 search cache=/etc/ld.so.cache
+       611:	  trying file=/lib/aarch64-linux-gnu/libc.so.6
+       611:	
+       611:	
+       611:	calling init: /lib/ld-linux-aarch64.so.1
+       611:	
+       611:	
+       611:	calling init: /lib/aarch64-linux-gnu/libc.so.6
+       611:	
+       611:	
+       611:	calling init: /lib/aarch64-linux-gnu/libgcc_s.so.1
+       611:	
+       611:	
+       611:	calling init: /lib/aarch64-linux-gnu/libm.so.6
+       611:	
+       611:	
+       611:	calling init: /lib/aarch64-linux-gnu/libstdc++.so.6
+       611:	
+       611:	
+       611:	calling init: /work/qualification/reference/single/libmujoco.so.3.17.1
+       611:	
+       611:	
+       611:	initialize program: /work/qualification/build-single/bin/engine_collision_convex_test
+       611:	
+       611:	
+       611:	transferring control: /work/qualification/build-single/bin/engine_collision_convex_test
+       611:	
+       611:	
+       611:	calling fini:  [0]
+       611:	
+       611:	
+       611:	calling fini: /work/qualification/reference/single/libmujoco.so.3.17.1 [0]
+       611:	
+       611:	
+       611:	calling fini: /lib/aarch64-linux-gnu/libstdc++.so.6 [0]
+       611:	
+       611:	
+       611:	calling fini: /lib/aarch64-linux-gnu/libm.so.6 [0]
+       611:	
+       611:	
+       611:	calling fini: /lib/aarch64-linux-gnu/libgcc_s.so.1 [0]
+       611:	
+       611:	
+       611:	calling fini: /lib/aarch64-linux-gnu/libc.so.6 [0]
+       611:	
+       611:	
+       611:	calling fini: /lib/ld-linux-aarch64.so.1 [0]
+       611:	

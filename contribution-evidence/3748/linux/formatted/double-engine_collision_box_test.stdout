@@ -1,0 +1,39 @@
+Running main() from /work/qualification/build-double/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from MjCollisionBoxTest
+[ RUN      ] MjCollisionBoxTest.BadContacts
+[       OK ] MjCollisionBoxTest.BadContacts (6 ms)
+[ RUN      ] MjCollisionBoxTest.DuplicateContacts
+[       OK ] MjCollisionBoxTest.DuplicateContacts (0 ms)
+[ RUN      ] MjCollisionBoxTest.DeepPenetration
+[       OK ] MjCollisionBoxTest.DeepPenetration (0 ms)
+[ RUN      ] MjCollisionBoxTest.BoxSphere
+[       OK ] MjCollisionBoxTest.BoxSphere (0 ms)
+[ RUN      ] MjCollisionBoxTest.BoxBoxContactDistance
+[       OK ] MjCollisionBoxTest.BoxBoxContactDistance (0 ms)
+[ RUN      ] MjCollisionBoxTest.ThinBoxNoSpuriousDeepContact
+[       OK ] MjCollisionBoxTest.ThinBoxNoSpuriousDeepContact (0 ms)
+[ RUN      ] MjCollisionBoxTest.ThinBoxShallowPenetration
+[       OK ] MjCollisionBoxTest.ThinBoxShallowPenetration (0 ms)
+[ RUN      ] MjCollisionBoxTest.ThinBoxTunneledPenetration
+[       OK ] MjCollisionBoxTest.ThinBoxTunneledPenetration (0 ms)
+[ RUN      ] MjCollisionBoxTest.EdgeContactAtDepthBound
+[       OK ] MjCollisionBoxTest.EdgeContactAtDepthBound (0 ms)
+[ RUN      ] MjCollisionBoxTest.NearAlignedManifoldIsExact
+[       OK ] MjCollisionBoxTest.NearAlignedManifoldIsExact (0 ms)
+[ RUN      ] MjCollisionBoxTest.ShallowOverlapSurvivesRounding
+[       OK ] MjCollisionBoxTest.ShallowOverlapSurvivesRounding (0 ms)
+[ RUN      ] MjCollisionBoxTest.AlignedTowerStands
+[       OK ] MjCollisionBoxTest.AlignedTowerStands (458 ms)
+[ RUN      ] MjCollisionBoxTest.ConcentricAndContainedBoxes
+[       OK ] MjCollisionBoxTest.ConcentricAndContainedBoxes (0 ms)
+[ RUN      ] MjCollisionBoxTest.CanonicalFaceAndEdgeAlignments
+[       OK ] MjCollisionBoxTest.CanonicalFaceAndEdgeAlignments (0 ms)
+[ RUN      ] MjCollisionBoxTest.CapsuleBoxLargeMarginDistance
+[       OK ] MjCollisionBoxTest.CapsuleBoxLargeMarginDistance (0 ms)
+[----------] 15 tests from MjCollisionBoxTest (477 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (477 ms total)
+[  PASSED  ] 15 tests.

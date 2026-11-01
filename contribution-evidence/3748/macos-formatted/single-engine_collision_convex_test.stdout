@@ -1,0 +1,53 @@
+Running main() from /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from MjcConvexTest
+[ RUN      ] MjcConvexTest.FramelessContact
+[       OK ] MjcConvexTest.FramelessContact (1 ms)
+[ RUN      ] MjcConvexTest.FramelessContactHfield
+[       OK ] MjcConvexTest.FramelessContactHfield (0 ms)
+[ RUN      ] MjcConvexTest.CylinderBox
+[       OK ] MjcConvexTest.CylinderBox (0 ms)
+[ RUN      ] MjcConvexTest.PlaneConvexMultipleFaces
+[       OK ] MjcConvexTest.PlaneConvexMultipleFaces (0 ms)
+[ RUN      ] MjcConvexTest.CylinderBoxHorizontal
+[       OK ] MjcConvexTest.CylinderBoxHorizontal (0 ms)
+[ RUN      ] MjcConvexTest.CylinderCylinderFaceToFace
+[       OK ] MjcConvexTest.CylinderCylinderFaceToFace (0 ms)
+[ RUN      ] MjcConvexTest.CylinderCylinderSideToSide
+[       OK ] MjcConvexTest.CylinderCylinderSideToSide (0 ms)
+[ RUN      ] MjcConvexTest.PlaneFittedEllipsoid
+[       OK ] MjcConvexTest.PlaneFittedEllipsoid (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedSpheres
+[       OK ] MjcConvexTest.IsEnclosedSpheres (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedBoxesAndRotations
+[       OK ] MjcConvexTest.IsEnclosedBoxesAndRotations (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedBoxInSphereCornerProtrusion
+[       OK ] MjcConvexTest.IsEnclosedBoxInSphereCornerProtrusion (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedSmoothAndPolytopeShapes
+[       OK ] MjcConvexTest.IsEnclosedSmoothAndPolytopeShapes (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedConvexMeshes
+[       OK ] MjcConvexTest.IsEnclosedConvexMeshes (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedDisjointInsideWorldAABB
+[       OK ] MjcConvexTest.IsEnclosedDisjointInsideWorldAABB (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedScaleInvariance
+[       OK ] MjcConvexTest.IsEnclosedScaleInvariance (0 ms)
+[ RUN      ] MjcConvexTest.IsEnclosedSite
+[       OK ] MjcConvexTest.IsEnclosedSite (0 ms)
+[ RUN      ] MjcConvexTest.HFieldMarginAndGap
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+/Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/main-source/test/fixture.cc:73:
+    Function call: Warn(@0x16f528c10 "flex 'flex' is not rigid and has no equality constraints or passive forces\nElement name 'flex', id 0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] MjcConvexTest.HFieldMarginAndGap (0 ms)
+[ RUN      ] MjcConvexTest.HorizontalCylinderBoxSupportLine
+[       OK ] MjcConvexTest.HorizontalCylinderBoxSupportLine (0 ms)
+[ RUN      ] MjcConvexTest.HorizontalCylinderBoxRemainsAtRest
+[       OK ] MjcConvexTest.HorizontalCylinderBoxRemainsAtRest (10 ms)
+[----------] 19 tests from MjcConvexTest (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test suite ran. (19 ms total)
+[  PASSED  ] 19 tests.

@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-01T16:12:35.933502+00:00",
+  "outputs_observed": false,
+  "driver_sha256": "8e55e6f2db1750cf766abcc4fa3c3d692628a6a08391d32dc25a036d5ba434ac",
+  "note": "Two 30-minute stage ceilings per platform, within the frozen two-hour total cap. Initial numerical test tolerances subject only to retained upstream calibration; trajectory criterion fixed."
+}

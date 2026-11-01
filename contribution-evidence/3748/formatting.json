@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-01T16:22:08.751304+00:00",
+  "tool": "clang-format 19.1.7",
+  "scope": "Only added C++ test lines; code tokens after stripping line comments/whitespace unchanged and raw strings byte-identical. Prior final-named patches remain frozen in the Linux run. Production unchanged.",
+  "initial_check_failure": "An initial whitespace-only comparison rejected the formatter because wrapping a line comment adds a second //; no source was changed by that failed attempt. Corrected comparison also independently retains exact raw strings.",
+  "sha256": {
+    "format-only.patch": "42e69eef59cf17003337536bc87fcf970b09b62485739655de0e7c5a849d33f5",
+    "tests-formatted.patch": "284c5f2ab8993b19249e0ccf67b49c02665e788a56e70b11172e361c58a421a9",
+    "submission-formatted.patch": "7b9d47d8ae8b93ece35fb061d512ced80bb281dbbe201656125948294ae529dd"
+  }
+}

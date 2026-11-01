@@ -1,0 +1,197 @@
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(lodepng) is deprecated, call
+  FetchContent_MakeAvailable(lodepng) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(lodepng) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/FindOrFetch.cmake:259 (FindOrFetch)
+  cmake/third_party_deps/lodepng.cmake:23 (fetchpackage)
+  cmake/MujocoDependencies.cmake:86 (include)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:259 (FindOrFetch)
+  cmake/third_party_deps/lodepng.cmake:23 (fetchpackage)
+  cmake/MujocoDependencies.cmake:86 (include)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(marchingcubecpp) is deprecated, call
+  FetchContent_MakeAvailable(marchingcubecpp) instead.  Policy CMP0169 can be
+  set to OLD to allow FetchContent_Populate(marchingcubecpp) to be called
+  directly for now, but the ability to call it with declared details will be
+  removed completely in a future version.
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:106 (FetchContent_Populate)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(qhull) is deprecated, call
+  FetchContent_MakeAvailable(qhull) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(qhull) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:117 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:117 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(tinyxml2) is deprecated, call
+  FetchContent_MakeAvailable(tinyxml2) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(tinyxml2) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:142 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:142 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(tinyobjloader) is deprecated, call
+  FetchContent_MakeAvailable(tinyobjloader) instead.  Policy CMP0169 can be
+  set to OLD to allow FetchContent_Populate(tinyobjloader) to be called
+  directly for now, but the ability to call it with declared details will be
+  removed completely in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:165 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:165 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(ccd) is deprecated, call
+  FetchContent_MakeAvailable(ccd) instead.  Policy CMP0169 can be set to OLD
+  to allow FetchContent_Populate(ccd) to be called directly for now, but the
+  ability to call it with declared details will be removed completely in a
+  future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:203 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:203 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(miniz) is deprecated, call
+  FetchContent_MakeAvailable(miniz) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(miniz) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/FindOrFetch.cmake:259 (FindOrFetch)
+  cmake/MujocoDependencies.cmake:244 (fetchpackage)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/current-main-macos/build-single/_deps/miniz-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:259 (FindOrFetch)
+  cmake/MujocoDependencies.cmake:244 (fetchpackage)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(abseil-cpp) is deprecated, call
+  FetchContent_MakeAvailable(abseil-cpp) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(abseil-cpp) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:272 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:272 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(googletest) is deprecated, call
+  FetchContent_MakeAvailable(googletest) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(googletest) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:304 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:304 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Users/danielwahnich/workspace/nisayon-mujoco-settling-2026-11-01/artifacts/mujoco3748/build-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(benchmark) is deprecated, call
+  FetchContent_MakeAvailable(benchmark) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(benchmark) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:193 (FetchContent_Populate)
+  cmake/MujocoDependencies.cmake:336 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:208 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:336 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

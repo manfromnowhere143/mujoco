@@ -1,0 +1,95 @@
+       437:	find library=libmujoco.so.3.17.1 [0]; searching
+       437:	 search path=/work/qualification/reference/double/tls/aarch64/atomics:/work/qualification/reference/double/tls/aarch64:/work/qualification/reference/double/tls/atomics:/work/qualification/reference/double/tls:/work/qualification/reference/double/aarch64/atomics:/work/qualification/reference/double/aarch64:/work/qualification/reference/double/atomics:/work/qualification/reference/double		(LD_LIBRARY_PATH)
+       437:	  trying file=/work/qualification/reference/double/tls/aarch64/atomics/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/tls/aarch64/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/tls/atomics/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/tls/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/aarch64/atomics/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/aarch64/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/atomics/libmujoco.so.3.17.1
+       437:	  trying file=/work/qualification/reference/double/libmujoco.so.3.17.1
+       437:	
+       437:	find library=libm.so.6 [0]; searching
+       437:	 search path=/work/qualification/reference/double		(LD_LIBRARY_PATH)
+       437:	  trying file=/work/qualification/reference/double/libm.so.6
+       437:	 search path=/work/qualification/build-double/lib/tls/aarch64/atomics:/work/qualification/build-double/lib/tls/aarch64:/work/qualification/build-double/lib/tls/atomics:/work/qualification/build-double/lib/tls:/work/qualification/build-double/lib/aarch64/atomics:/work/qualification/build-double/lib/aarch64:/work/qualification/build-double/lib/atomics:/work/qualification/build-double/lib		(RUNPATH from file /work/qualification/build-double/bin/engine_collision_convex_test)
+       437:	  trying file=/work/qualification/build-double/lib/tls/aarch64/atomics/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/tls/aarch64/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/tls/atomics/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/tls/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/aarch64/atomics/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/aarch64/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/atomics/libm.so.6
+       437:	  trying file=/work/qualification/build-double/lib/libm.so.6
+       437:	 search cache=/etc/ld.so.cache
+       437:	  trying file=/lib/aarch64-linux-gnu/libm.so.6
+       437:	
+       437:	find library=libstdc++.so.6 [0]; searching
+       437:	 search path=/work/qualification/reference/double		(LD_LIBRARY_PATH)
+       437:	  trying file=/work/qualification/reference/double/libstdc++.so.6
+       437:	 search path=/work/qualification/build-double/lib		(RUNPATH from file /work/qualification/build-double/bin/engine_collision_convex_test)
+       437:	  trying file=/work/qualification/build-double/lib/libstdc++.so.6
+       437:	 search cache=/etc/ld.so.cache
+       437:	  trying file=/lib/aarch64-linux-gnu/libstdc++.so.6
+       437:	
+       437:	find library=libgcc_s.so.1 [0]; searching
+       437:	 search path=/work/qualification/reference/double		(LD_LIBRARY_PATH)
+       437:	  trying file=/work/qualification/reference/double/libgcc_s.so.1
+       437:	 search path=/work/qualification/build-double/lib		(RUNPATH from file /work/qualification/build-double/bin/engine_collision_convex_test)
+       437:	  trying file=/work/qualification/build-double/lib/libgcc_s.so.1
+       437:	 search cache=/etc/ld.so.cache
+       437:	  trying file=/lib/aarch64-linux-gnu/libgcc_s.so.1
+       437:	
+       437:	find library=libc.so.6 [0]; searching
+       437:	 search path=/work/qualification/reference/double		(LD_LIBRARY_PATH)
+       437:	  trying file=/work/qualification/reference/double/libc.so.6
+       437:	 search path=/work/qualification/build-double/lib		(RUNPATH from file /work/qualification/build-double/bin/engine_collision_convex_test)
+       437:	  trying file=/work/qualification/build-double/lib/libc.so.6
+       437:	 search cache=/etc/ld.so.cache
+       437:	  trying file=/lib/aarch64-linux-gnu/libc.so.6
+       437:	
+       437:	
+       437:	calling init: /lib/ld-linux-aarch64.so.1
+       437:	
+       437:	
+       437:	calling init: /lib/aarch64-linux-gnu/libc.so.6
+       437:	
+       437:	
+       437:	calling init: /lib/aarch64-linux-gnu/libgcc_s.so.1
+       437:	
+       437:	
+       437:	calling init: /lib/aarch64-linux-gnu/libm.so.6
+       437:	
+       437:	
+       437:	calling init: /lib/aarch64-linux-gnu/libstdc++.so.6
+       437:	
+       437:	
+       437:	calling init: /work/qualification/reference/double/libmujoco.so.3.17.1
+       437:	
+       437:	
+       437:	initialize program: /work/qualification/build-double/bin/engine_collision_convex_test
+       437:	
+       437:	
+       437:	transferring control: /work/qualification/build-double/bin/engine_collision_convex_test
+       437:	
+       437:	
+       437:	calling fini:  [0]
+       437:	
+       437:	
+       437:	calling fini: /work/qualification/reference/double/libmujoco.so.3.17.1 [0]
+       437:	
+       437:	
+       437:	calling fini: /lib/aarch64-linux-gnu/libstdc++.so.6 [0]
+       437:	
+       437:	
+       437:	calling fini: /lib/aarch64-linux-gnu/libm.so.6 [0]
+       437:	
+       437:	
+       437:	calling fini: /lib/aarch64-linux-gnu/libgcc_s.so.1 [0]
+       437:	
+       437:	
+       437:	calling fini: /lib/aarch64-linux-gnu/libc.so.6 [0]
+       437:	
+       437:	
+       437:	calling fini: /lib/ld-linux-aarch64.so.1 [0]
+       437:	

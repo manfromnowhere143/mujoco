@@ -1,0 +1,19 @@
+{
+  "MJTOL_SCALE": 0,
+  "maximum_residuals": {
+    "double": {
+      "contact.dist and -0.0002": 2.2497195079074217e-18,
+      "contacts[i].dist and -0.0002": 2.2497195079074217e-18,
+      "offset and 0": 3.173104996529118e-18,
+      "max_displacement and 0": 4.3327353025409665e-17
+    },
+    "single": {
+      "offset and 0": 4.1312406828808435e-09,
+      "contact.dist and -0.0002": 3.397464752293109e-10,
+      "contacts[i].normal[2] and g1 == 0 ? 1 : -1": 5.960464477539063e-08,
+      "contacts[i].dist and -0.0002": 3.397464752293109e-10,
+      "max_displacement and 0": 3.4427415585014387e-07
+    }
+  },
+  "decision": "Keep declared comparison tolerances. Float position 1e-7 m exceeds 4.14e-9 m residual by ~24x; float displacement 1e-5 m exceeds 3.45e-7 m residual by ~29x. Double displacement remains the original physical regression bound, not an estimate of calibration accuracy. Both tests remain sensitive in both precisions."
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-01T16:23:38.614460+00:00",
+  "source_commit": "8d2b7d1798b58b8294223ae37b08862d562d2061",
+  "scope": "Formatting-only follow-through; recompile and run four test executables in both precisions; require native library hash unchanged; rerun both adverse controls against confirmed unpatched libraries. No new trajectory required if native library is unchanged.",
+  "linux_deadline_seconds": 360,
+  "sha256": {
+    "submission-formatted.patch": "7b9d47d8ae8b93ece35fb061d512ced80bb281dbbe201656125948294ae529dd",
+    "check_formatted.py": "592df80804b270a0e1451a44b1e1740386e46b21fffbb1aa026c0995147a620c",
+    "linux_format.py": "c9d90f3ec0701b54245fa098c95c3029d3aa48b266cff6c471644a651e9db1b4",
+    "launch_linux_format.py": "60347a9ccdec67f21dd9921ad51054edb40d913dad891f474cc69e6f16ef446f"
+  }
+}
